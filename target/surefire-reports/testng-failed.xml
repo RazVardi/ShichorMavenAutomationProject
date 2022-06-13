@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.CreateNewFlexibleTripByRecreationCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByRecreationCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByRecreationCategory -->
+      <class name="tests.CreateNewFlexibleTripByCultureCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByCultureCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByCultureCategory -->
+      <class name="tests.CreateNewFlexibleTripTest">
+        <methods>
+          <include name="createNewFlexibleTrip"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripTest -->
+      <class name="tests.CreateNewFlexibleTripByFootballCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByFootballCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByFootballCategory -->
+      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory">
+        <methods>
+          <include name="createNewFlexibleTripByMountainsAndForestsCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByMountainsAndForestsCategory -->
+      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createNewFlexibleTripByBarMitzvahCategory"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByBarMitzvahCategory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

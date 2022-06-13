@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-13T15:01:10 IDT" name="Default suite" finished-at="2022-06-13T15:01:46 IDT" duration-ms="36861">
+    <groups>
+    </groups>
+    <test started-at="2022-06-13T15:01:10 IDT" name="Default test" finished-at="2022-06-13T15:01:46 IDT" duration-ms="36861">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@4d0b0fd4]" started-at="2022-06-13T15:01:10 IDT" name="setup" finished-at="2022-06-13T15:01:17 IDT" duration-ms="7643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginFailedTest()[pri:0, instance:tests.LoginTest@4d0b0fd4]" started-at="2022-06-13T15:01:17 IDT" name="loginFailedTest" finished-at="2022-06-13T15:01:28 IDT" duration-ms="11047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailedTest -->
+        <test-method signature="loginSucceedTest()[pri:0, instance:tests.LoginTest@4d0b0fd4]" started-at="2022-06-13T15:01:28 IDT" name="loginSucceedTest" finished-at="2022-06-13T15:01:41 IDT" duration-ms="12778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSucceedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4d0b0fd4]" started-at="2022-06-13T15:01:41 IDT" name="tearDown" finished-at="2022-06-13T15:01:46 IDT" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
