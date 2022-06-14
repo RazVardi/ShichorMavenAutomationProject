@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class MyTripsPage extends BasePage {
 	
 	@FindBy(css = "[class='trip-item__title']")
@@ -28,7 +30,7 @@ public class MyTripsPage extends BasePage {
 			if(getText(listTitle.get(i)).equals(city)) {
 				click(listTrash.get(i));
 				click(listTrash2);
-				
+				break;
 			}
 		}
 	}
@@ -41,7 +43,8 @@ public class MyTripsPage extends BasePage {
 		return false;
 	}
 	
-	public Boolean  openMyTrip(String city) {
+	@Step("test if city exist on the list")
+	public Boolean openMyTrip(String city) {
 		for(int i=0;i<listTitle.size();i++) {
 			if(getText(listTitle.get(i)).equals(city)) {
 				click(openCityList.get(i));

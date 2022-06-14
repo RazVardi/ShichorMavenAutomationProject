@@ -10,6 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 
 public class BookDatesPage extends BasePage{
 	
@@ -28,7 +30,8 @@ public class BookDatesPage extends BasePage{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	@Step("click on flexible dates button")
 	public void clickOnFlexibleDate() {
 		sleep(1000L);
 		click(FlexibleDateBtn);

@@ -11,6 +11,8 @@ import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 
 public class BookDestinationsPage extends BasePage{
 
@@ -28,6 +30,7 @@ public class BookDestinationsPage extends BasePage{
 		super(driver);
 	}
 	
+	@Step("search city and submit it")
 	public void typeDestination(String city,WebElement destinationInput) {
 		click(destinationInput);
 		sleep(1000L);
@@ -37,8 +40,9 @@ public class BookDestinationsPage extends BasePage{
 		click(nextStep);
 	}
 	
-	public void choosePresetDestination() {
-		click(chooseDestination.get(0)); // Paris destination
+	@Step("choose preset popular city")
+	public void choosePresetDestination(int cityLocation) {
+		click(chooseDestination.get(cityLocation)); //cityLocation=0 Paris destination
 	}
 	
 	public String getPresetDestination() {

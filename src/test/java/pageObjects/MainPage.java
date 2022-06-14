@@ -11,6 +11,8 @@ import org.openqa.selenium.WindowType;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 
 
 public class MainPage extends BasePage {
@@ -49,9 +51,9 @@ public class MainPage extends BasePage {
 	private WebElement startPlan;
 	@FindBy(css = "[href='/en/destinations']>.vector-icon")
 	private List<WebElement> destinations;
-	@FindBy(css = "[href='https://tripready.co.il/']>.vector-icon")
+	@FindBy(css = "[class='header-nav__item header-nav__item--bold']")
 	private List<WebElement> covidAssist;
-	@FindBy(css = "[class='header-nav__item header-dropdown']")
+	@FindBy(css = "[class='header-dropdown__title']")
 	private List<WebElement> serviceMenu;
 	@FindBy(linkText="https://www.booking.com/?aid=344905&changed_currency=1&selected_currency=ILS")
 	private WebElement hotelLink;
@@ -79,27 +81,32 @@ public class MainPage extends BasePage {
 	@FindBy(css=".locale-settings__tab.locale-settings__tab--active>.locale-settings__tab-value")
 	WebElement currentCurrency;
 	String strCurrentCurrency;
-	@FindBy(css=".app-header__logo")
+	@FindBy(css="[class='app-header__logo']")
 	WebElement shichorLogo;
 	
 	@FindBy(css=".trip-item__title")
 	List<WebElement> myTripTitle;
-	boolean isSelect;
+	@FindBy(css="[class='header-dropdown-item']")
+	List<WebElement> serviceList;
+	
 	public MainPage(WebDriver driver) {
 		super(driver);
 		
 	}
-
+	
+	@Step("Click on login button")
 	public void clickOnLogin() {
 		click(loginBtnEl);
 	}
 	
+	@Step("made a login process")
 	public void login(String email, String password) {
 		overrideInput(emailField,email);
 		overrideInput(passwordField,password);
 		click(loginBtnApprove);	
 	}
 	
+	@Step("made a logout process")
 	public String logout() {
 		Actions action = new Actions(driver);
 		sleep(2000l);
@@ -113,6 +120,8 @@ public class MainPage extends BasePage {
 		return loginStr;
 		
 	}
+	
+	@Step("test if login is succes")
 	public String loginSucceedTest() {
 		String profileElStr=getText(profielEl);
 		return profileElStr;
@@ -123,19 +132,21 @@ public class MainPage extends BasePage {
 		errorMsg=getText(errorEl);
 		return errorMsg;
 	}
-
+	
+	@Step("get the error message")
 	public String loginFailedTest() {
 		String errorMsg=getText(errorEl);
 		System.out.println("the error message is: " + errorMsg);
 		return errorMsg;
 	}
 	
+	@Step("Click on x icon")
 	public void clickOnXicon() {
 		click(xIcon);
 	}
-
+	
+	@Step("change currency to dollar process")
 	public String changeCurrencyToDollarTest() {
-		
 		Actions action = new Actions(driver);
 		action.moveToElement(globe).build().perform();
 		click(currency);
@@ -145,9 +156,9 @@ public class MainPage extends BasePage {
 		sleep(2000l);
 		strCurrentCurrency= getText(currentCurrency);
 		return strCurrentCurrency;
-		
 	}
 	
+	@Step("change currency to euro process")
 	public String changeCurrencyToEuroTest() {
 		Actions action = new Actions(driver);
 		action.moveToElement(globe).build().perform();
@@ -160,6 +171,7 @@ public class MainPage extends BasePage {
 		return strCurrentCurrency;
 	}
 	
+	@Step("change currency to shekel process")
 	public String changeCurrencyToShekelTest() {
 		Actions action = new Actions(driver);
 		action.moveToElement(globe).build().perform();
@@ -173,30 +185,101 @@ public class MainPage extends BasePage {
 		return strCurrentCurrency;
 	}
 	
+	@Step("open the my trips page on the site")
 	public Boolean openMyTrips() {
+		try {
+			WebElement myTripEl=myTrip.get(0);
+			sleep(3000L);
+			click(myTripEl);
+			sleep(3000L);
+			click(shichorLogo);
+			return true;
+		}catch(Exception error) {
+			return false;
+		}
+		
+	}
+	
+	@Step("open the my trips page on the site")
+	public void openMyTripsVoid() {
 		WebElement myTripEl=myTrip.get(0);
 		sleep(3000L);
 		click(myTripEl);
 		sleep(2000l);
-		isSelect=myTripEl.isSelected();
-		return isSelect;
-	}
-	
-	public Boolean openDestinations() {
 		
-		WebElement desEl=destinations.get(0);
-		click(desEl);
-		sleep(2000l);
-		isSelect=desEl.isSelected();
-		return isSelect;
 	}
 	
+	@Step("open the destination page on the site")
+	public Boolean openDestinations() {
+		try {
+			WebElement desEl=destinations.get(0);
+			click(desEl);
+			return true;
+		}catch(Exception error) {
+			return false;
+		}
+		
+	}
+	
+	@Step("open the covid assist page on the site")
 	public Boolean openCovidAssist() {
-		WebElement covidEl=covidAssist.get(0);
-		click(covidEl);
-		sleep(2000l);
-		isSelect=covidEl.isSelected();
-		return isSelect;
+		try {
+			WebElement covidEl=covidAssist.get(0);
+			click(covidEl);
+			return true;
+		}catch(Exception error) {
+			return false;
+		}
+		
+	}
+	public Boolean  clickOnHotelNew() {
+		for(int i=0;i<serviceList.size()/2;i++) {
+			if(i==5) {
+				click(serviceList.get(i));
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public Boolean clickOnFlightsNew() {
+		for(int i=0;i<serviceList.size()/2;i++) {
+			if(i==6) {
+				click(serviceList.get(i));
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public Boolean clickOnExperiencesNew() {
+		for(int i=0;i<serviceList.size()/2;i++) {
+			if(i==7) {
+				click(serviceList.get(i));
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public Boolean clickOnInsuranceNew() {
+		for(int i=0;i<serviceList.size()/2;i++) {
+			if(i==8) {
+				click(serviceList.get(i));
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public Boolean clickOnCarRentalNew() {
+		for(int i=0;i<serviceList.size()/2;i++) {
+			if(i==9) {
+				click(serviceList.get(i));
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	public void clickOnServiceMenu() {
@@ -290,7 +373,8 @@ public class MainPage extends BasePage {
 		PlanPage pp =new PlanPage(driver);
 		pp.startPlan();
 		BookDestinationsPage bdp=new BookDestinationsPage(driver);
-		bdp.choosePresetDestination();
+		int cityLocation=0;
+		bdp.choosePresetDestination(cityLocation);
 		BookDatesPage bdp2=new BookDatesPage(driver);
 		bdp2.clickOnFlexibleDate();
 		sleep(3000L);
@@ -588,5 +672,6 @@ public class MainPage extends BasePage {
 	public void deleteCookies() {
 		driver.manage().deleteAllCookies();
 	}
+	
 
 }

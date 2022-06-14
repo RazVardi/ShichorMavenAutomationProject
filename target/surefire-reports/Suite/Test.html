@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>39/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/16/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 13 16:13:41 IDT 2022</td>
+<td>Started on:</td><td>Mon Jun 13 21:00:28 IDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1879 seconds (1879367 ms)</td>
+<tr><td>Total time:</td><td>1673 seconds (1673346 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,285 +76,7 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.CreateNewFlexibleTripTest.createNewFlexibleTrip()'><b>createNewFlexibleTrip</b><br>Test class: tests.CreateNewFlexibleTripTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class=&apos;btn-dark-blue btn&apos;]&quot;}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [52ea2e5a2fb47df4789380a6327ecb78, findElement {using=css selector, value=[class=&apos;btn-dark-blue btn&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60811/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 52ea2e5a2fb47df4789380a6327ecb78
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.getAttribute(Unknown Source)
-	at pageObjects.BasePage.highlightElement(BasePage.java:51)
-	at pageObjects.BasePage.click(BasePage.java:29)
-	at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:269)
-	at tests.CreateNewFlexibleTripTest.createNewFlexibleTrip(CreateNewFlexibleTripTest.java:10)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1472296432", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1472296432'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class=&apos;btn-dark-blue btn&apos;]&quot;}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [52ea2e5a2fb47df4789380a6327ecb78, findElement {using=css selector, value=[class=&apos;btn-dark-blue btn&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60811/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 52ea2e5a2fb47df4789380a6327ecb78
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.getAttribute(Unknown Source)
-	at pageObjects.BasePage.highlightElement(BasePage.java:51)
-	at pageObjects.BasePage.click(BasePage.java:29)
-	at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:269)
-	at tests.CreateNewFlexibleTripTest.createNewFlexibleTrip(CreateNewFlexibleTripTest.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>116</td>
-<td>tests.CreateNewFlexibleTripTest@51751e5f</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByCultureCategory.createNewFlexibleTripByCultureCategory()'><b>createNewFlexibleTripByCultureCategory</b><br>Test class: tests.CreateNewFlexibleTripByCultureCategory</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=102.0.5005.63)
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f80c58071e24587085af22f4601c3c7f, getElementAttribute {id=46f7341e-8d57-4f34-8df1-86b76892afcf, name=style}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59094/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f80c58071e24587085af22f4601c3c7f)] -&gt; css selector: .d-block.text-truncate]
-Session ID: f80c58071e24587085af22f4601c3c7f
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:152)
-	at pageObjects.BasePage.highlightElement(BasePage.java:51)
-	at pageObjects.BasePage.getText(BasePage.java:35)
-	at pageObjects.InspirePage.clickByThemeSubCategory(InspirePage.java:163)
-	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:468)
-	at tests.CreateNewFlexibleTripByCultureCategory.createNewFlexibleTripByCultureCategory(CreateNewFlexibleTripByCultureCategory.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1701580462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1701580462'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=102.0.5005.63)
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f80c58071e24587085af22f4601c3c7f, getElementAttribute {id=46f7341e-8d57-4f34-8df1-86b76892afcf, name=style}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59094/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f80c58071e24587085af22f4601c3c7f)] -&gt; css selector: .d-block.text-truncate]
-Session ID: f80c58071e24587085af22f4601c3c7f
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:152)
-	at pageObjects.BasePage.highlightElement(BasePage.java:51)
-	at pageObjects.BasePage.getText(BasePage.java:35)
-	at pageObjects.InspirePage.clickByThemeSubCategory(InspirePage.java:163)
-	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:468)
-	at tests.CreateNewFlexibleTripByCultureCategory.createNewFlexibleTripByCultureCategory(CreateNewFlexibleTripByCultureCategory.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>10</td>
-<td>tests.CreateNewFlexibleTripByCultureCategory@11a7ba62</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory()'><b>createNewFlexibleTripByFootballCategory</b><br>Test class: tests.CreateNewFlexibleTripByFootballCategory</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=102.0.5005.63)
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139abf1d2fbbea13fb3279884aa36bb7, executeScript {script=var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute(&apos;style&apos;, &apos;&apos;);},400);, args=[{ELEMENT=2424a15b-07b9-46b0-8714-b42c30be246b, element-6066-11e4-a52e-4f735466cecf=2424a15b-07b9-46b0-8714-b42c30be246b}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59030/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 139abf1d2fbbea13fb3279884aa36bb7
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:501)
-	at pageObjects.BasePage.highlightElement(BasePage.java:60)
-	at pageObjects.BasePage.getText(BasePage.java:35)
-	at pageObjects.InspirePage.clickBySportSubCategory(InspirePage.java:96)
-	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:395)
-	at tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory(CreateNewFlexibleTripByFootballCategory.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace592182412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace592182412'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=102.0.5005.63)
-Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139abf1d2fbbea13fb3279884aa36bb7, executeScript {script=var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute(&apos;style&apos;, &apos;&apos;);},400);, args=[{ELEMENT=2424a15b-07b9-46b0-8714-b42c30be246b, element-6066-11e4-a52e-4f735466cecf=2424a15b-07b9-46b0-8714-b42c30be246b}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59030/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 139abf1d2fbbea13fb3279884aa36bb7
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:501)
-	at pageObjects.BasePage.highlightElement(BasePage.java:60)
-	at pageObjects.BasePage.getText(BasePage.java:35)
-	at pageObjects.InspirePage.clickBySportSubCategory(InspirePage.java:96)
-	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:395)
-	at tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory(CreateNewFlexibleTripByFootballCategory.java:11)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-</pre></div></td>
-<td>9</td>
-<td>tests.CreateNewFlexibleTripByFootballCategory@23ee75c5</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByBarMitzvahCategory.createNewFlexibleTripByBarMitzvahCategory()'><b>createNewFlexibleTripByBarMitzvahCategory</b><br>Test class: tests.CreateNewFlexibleTripByBarMitzvahCategory</td>
-<td><div><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
@@ -362,25 +84,25 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
-	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleFamilyTripByCategory(MainPage.java:499)
-	at tests.CreateNewFlexibleTripByBarMitzvahCategory.createNewFlexibleTripByBarMitzvahCategory(CreateNewFlexibleTripByBarMitzvahCategory.java:11)
+	at pageObjects.PlanPage.startPlan(PlanPage.java:20)
+	at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:267)
+	at tests.CreateNewFlexibleTripTest.createNewFlexibleTrip(CreateNewFlexibleTripTest.java:10)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace361642617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace361642617'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1165352725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1165352725'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
-	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleFamilyTripByCategory(MainPage.java:499)
-	at tests.CreateNewFlexibleTripByBarMitzvahCategory.createNewFlexibleTripByBarMitzvahCategory(CreateNewFlexibleTripByBarMitzvahCategory.java:11)
+	at pageObjects.PlanPage.startPlan(PlanPage.java:20)
+	at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:267)
+	at tests.CreateNewFlexibleTripTest.createNewFlexibleTrip(CreateNewFlexibleTripTest.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -415,7 +137,847 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>5</td>
-<td>tests.CreateNewFlexibleTripByBarMitzvahCategory@231baf51</td></tr>
+<td>tests.CreateNewFlexibleTripTest@4443ef6f</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleRomanticTrip.createNewFlexibleRomanticTrip()'><b>createNewFlexibleRomanticTrip</b><br>Test class: tests.CreateNewFlexibleRomanticTrip</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+	at pageObjects.MainPage.createNewFlexibleRomanticTrip(MainPage.java:364)
+	at tests.CreateNewFlexibleRomanticTrip.createNewFlexibleRomanticTrip(CreateNewFlexibleRomanticTrip.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57445513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57445513'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+	at pageObjects.MainPage.createNewFlexibleRomanticTrip(MainPage.java:364)
+	at tests.CreateNewFlexibleRomanticTrip.createNewFlexibleRomanticTrip(CreateNewFlexibleRomanticTrip.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>5</td>
+<td>tests.CreateNewFlexibleRomanticTrip@4e8e8621</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByMusicCategory.createNewFlexibleTripByMusicCategory()'><b>createNewFlexibleTripByMusicCategory</b><br>Test class: tests.CreateNewFlexibleTripByMusicCategory</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [632a5525e861d7609053f96f9abfcdfd, clickElement {id=c404f893-78c0-44df-9624-0bcbd6b5907d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52377/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (632a5525e861d7609053f96f9abfcdfd)] -&gt; css selector: .app-header__logo]
+Session ID: 632a5525e861d7609053f96f9abfcdfd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+	at tests.CreateNewFlexibleTripByMusicCategory.createNewFlexibleTripByMusicCategory(CreateNewFlexibleTripByMusicCategory.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace785088268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace785088268'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [632a5525e861d7609053f96f9abfcdfd, clickElement {id=c404f893-78c0-44df-9624-0bcbd6b5907d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52377/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (632a5525e861d7609053f96f9abfcdfd)] -&gt; css selector: .app-header__logo]
+Session ID: 632a5525e861d7609053f96f9abfcdfd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+	at tests.CreateNewFlexibleTripByMusicCategory.createNewFlexibleTripByMusicCategory(CreateNewFlexibleTripByMusicCategory.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>30</td>
+<td>tests.CreateNewFlexibleTripByMusicCategory@4c0884e8</td></tr>
+<tr>
+<td title='tests.OpenExistingTrip.openExistingTrip()'><b>openExistingTrip</b><br>Test class: tests.OpenExistingTrip</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01dda831fe5052f0aee804062f224041, isElementSelected {id=ad2d8c34-fcd9-4135-a99d-96b5e9fca59d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54621/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (01dda831fe5052f0aee804062f224041)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 01dda831fe5052f0aee804062f224041
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at pageObjects.MainPage.openExistingTrip(MainPage.java:579)
+	at tests.OpenExistingTrip.openExistingTrip(OpenExistingTrip.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace610804064", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace610804064'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01dda831fe5052f0aee804062f224041, isElementSelected {id=ad2d8c34-fcd9-4135-a99d-96b5e9fca59d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54621/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (01dda831fe5052f0aee804062f224041)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 01dda831fe5052f0aee804062f224041
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at pageObjects.MainPage.openExistingTrip(MainPage.java:579)
+	at tests.OpenExistingTrip.openExistingTrip(OpenExistingTrip.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>6</td>
+<td>tests.OpenExistingTrip@6fca2a8f</td></tr>
+<tr>
+<td title='tests.OpenLinksTest.tc2_openmMyTripsTest()'><b>tc2_openmMyTripsTest</b><br>Test class: tests.OpenLinksTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=79f8331a-1a8d-4a7e-839b-652457788de7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at tests.OpenLinksTest.tc2_openmMyTripsTest(OpenLinksTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1616624945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1616624945'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=79f8331a-1a8d-4a7e-839b-652457788de7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at tests.OpenLinksTest.tc2_openmMyTripsTest(OpenLinksTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>6</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByThemeParksCategory.createNewFlexibleTripByThemeParksCategory()'><b>createNewFlexibleTripByThemeParksCategory</b><br>Test class: tests.CreateNewFlexibleTripByThemeParksCategory</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7798a4d7803ca7a786a136d72b97ae04, clickElement {id=0a3c85a8-2d97-4b49-ae00-b28d7bdad3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53087/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7798a4d7803ca7a786a136d72b97ae04)] -&gt; css selector: .app-header__logo]
+Session ID: 7798a4d7803ca7a786a136d72b97ae04
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+	at tests.CreateNewFlexibleTripByThemeParksCategory.createNewFlexibleTripByThemeParksCategory(CreateNewFlexibleTripByThemeParksCategory.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1087549977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1087549977'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7798a4d7803ca7a786a136d72b97ae04, clickElement {id=0a3c85a8-2d97-4b49-ae00-b28d7bdad3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53087/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7798a4d7803ca7a786a136d72b97ae04)] -&gt; css selector: .app-header__logo]
+Session ID: 7798a4d7803ca7a786a136d72b97ae04
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+	at tests.CreateNewFlexibleTripByThemeParksCategory.createNewFlexibleTripByThemeParksCategory(CreateNewFlexibleTripByThemeParksCategory.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>28</td>
+<td>tests.CreateNewFlexibleTripByThemeParksCategory@3e83c18</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory()'><b>createNewFlexibleTripByFootballCategory</b><br>Test class: tests.CreateNewFlexibleTripByFootballCategory</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e3b1e8ec7c8ea7b3e91a234b055654c, clickElement {id=9bd101a1-48da-4a5d-abad-8108010b6239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e3b1e8ec7c8ea7b3e91a234b055654c)] -&gt; css selector: .app-header__logo]
+Session ID: 9e3b1e8ec7c8ea7b3e91a234b055654c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
+	at tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory(CreateNewFlexibleTripByFootballCategory.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 40 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace181765627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace181765627'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e3b1e8ec7c8ea7b3e91a234b055654c, clickElement {id=9bd101a1-48da-4a5d-abad-8108010b6239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e3b1e8ec7c8ea7b3e91a234b055654c)] -&gt; css selector: .app-header__logo]
+Session ID: 9e3b1e8ec7c8ea7b3e91a234b055654c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
+	at tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory(CreateNewFlexibleTripByFootballCategory.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>36</td>
+<td>tests.CreateNewFlexibleTripByFootballCategory@30b2b76f</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripPresetDestTest.createNewFlexibleTripPresetDest()'><b>createNewFlexibleTripPresetDest</b><br>Test class: tests.CreateNewFlexibleTripPresetDestTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10b2b1055123e918dcc4eef6f1cff25e, isElementSelected {id=20f24247-1f35-4c67-ae7a-a44bcb16b94c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10b2b1055123e918dcc4eef6f1cff25e)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 10b2b1055123e918dcc4eef6f1cff25e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at pageObjects.MainPage.createNewFlexibleTripPresetDest(MainPage.java:301)
+	at tests.CreateNewFlexibleTripPresetDestTest.createNewFlexibleTripPresetDest(CreateNewFlexibleTripPresetDestTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361086575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361086575'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10b2b1055123e918dcc4eef6f1cff25e, isElementSelected {id=20f24247-1f35-4c67-ae7a-a44bcb16b94c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10b2b1055123e918dcc4eef6f1cff25e)] -&gt; css selector: [href=&apos;/en/profile/bookmarks&apos;]&gt;.vector-icon]
+Session ID: 10b2b1055123e918dcc4eef6f1cff25e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+	at pageObjects.MainPage.createNewFlexibleTripPresetDest(MainPage.java:301)
+	at tests.CreateNewFlexibleTripPresetDestTest.createNewFlexibleTripPresetDest(CreateNewFlexibleTripPresetDestTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>26</td>
+<td>tests.CreateNewFlexibleTripPresetDestTest@11a7ba62</td></tr>
+<tr>
+<td title='tests.OpenLinksTest.tc3_openCovidAssistTest()'><b>tc3_openCovidAssistTest</b><br>Test class: tests.OpenLinksTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at tests.OpenLinksTest.tc3_openCovidAssistTest(OpenLinksTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1523632095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1523632095'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at tests.OpenLinksTest.tc3_openCovidAssistTest(OpenLinksTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>3</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByRunningCategory.createNewFlexibleTripByRunningCategory()'><b>createNewFlexibleTripByRunningCategory</b><br>Test class: tests.CreateNewFlexibleTripByRunningCategory</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [52816e610d29576a11e04514aec1f6d5, clickElement {id=225da978-f533-47b8-ae8b-2c00eabb78f5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53008/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (52816e610d29576a11e04514aec1f6d5)] -&gt; css selector: .app-header__logo]
+Session ID: 52816e610d29576a11e04514aec1f6d5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
+	at tests.CreateNewFlexibleTripByRunningCategory.createNewFlexibleTripByRunningCategory(CreateNewFlexibleTripByRunningCategory.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace521219490", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace521219490'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [52816e610d29576a11e04514aec1f6d5, clickElement {id=225da978-f533-47b8-ae8b-2c00eabb78f5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53008/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (52816e610d29576a11e04514aec1f6d5)] -&gt; css selector: .app-header__logo]
+Session ID: 52816e610d29576a11e04514aec1f6d5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:31)
+	at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
+	at tests.CreateNewFlexibleTripByRunningCategory.createNewFlexibleTripByRunningCategory(CreateNewFlexibleTripByRunningCategory.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>30</td>
+<td>tests.CreateNewFlexibleTripByRunningCategory@7cedfa63</td></tr>
+<tr>
+<td title='tests.OpenLinksTest.tc1_openDestinationsTest()'><b>tc1_openDestinationsTest</b><br>Test class: tests.OpenLinksTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=4eec44a7-7902-4eb2-9080-20429cfa2445}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -&gt; css selector: [href=&apos;/en/destinations&apos;]&gt;.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openDestinations(MainPage.java:190)
+	at tests.OpenLinksTest.tc1_openDestinationsTest(OpenLinksTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace852442747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace852442747'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=4eec44a7-7902-4eb2-9080-20429cfa2445}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -&gt; css selector: [href=&apos;/en/destinations&apos;]&gt;.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openDestinations(MainPage.java:190)
+	at tests.OpenLinksTest.tc1_openDestinationsTest(OpenLinksTest.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>3</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
 <tr>
 <td title='tests.CreateNewFlexibleTripByRecreationCategory.createNewFlexibleTripByRecreationCategory()'><b>createNewFlexibleTripByRecreationCategory</b><br>Test class: tests.CreateNewFlexibleTripByRecreationCategory</td>
 <td><div><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
@@ -427,23 +989,23 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:463)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
 	at tests.CreateNewFlexibleTripByRecreationCategory.createNewFlexibleTripByRecreationCategory(CreateNewFlexibleTripByRecreationCategory.java:11)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1403808692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1403808692'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace928646799", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace928646799'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:463)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
 	at tests.CreateNewFlexibleTripByRecreationCategory.createNewFlexibleTripByRecreationCategory(CreateNewFlexibleTripByRecreationCategory.java:11)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -479,9 +1041,144 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>5</td>
-<td>tests.CreateNewFlexibleTripByRecreationCategory@7cedfa63</td></tr>
+<td>tests.CreateNewFlexibleTripByRecreationCategory@5bfc257</td></tr>
 <tr>
-<td title='tests.CreateNewFlexibleTripByMountainsAndForestsCategory.createNewFlexibleTripByMountainsAndForestsCategory()'><b>createNewFlexibleTripByMountainsAndForestsCategory</b><br>Test class: tests.CreateNewFlexibleTripByMountainsAndForestsCategory</td>
+<td title='tests.CreateTripByDestinationOnlyTest.createTripByDestinationOnly()'><b>createTripByDestinationOnly</b><br>Test class: tests.CreateTripByDestinationOnlyTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97bf65da73cb1024a61f23bbcd927a4d, isElementSelected {id=3a47ff10-e10a-4430-a0f0-73979b454311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97bf65da73cb1024a61f23bbcd927a4d)] -&gt; css selector: [href=&apos;/en/destinations&apos;]&gt;.vector-icon]
+Session ID: 97bf65da73cb1024a61f23bbcd927a4d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openDestinations(MainPage.java:190)
+	at pageObjects.MainPage.createTripByDestinationOnly(MainPage.java:552)
+	at tests.CreateTripByDestinationOnlyTest.createTripByDestinationOnly(CreateTripByDestinationOnlyTest.java:10)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace595157219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace595157219'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;RAZ_VARDI&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97bf65da73cb1024a61f23bbcd927a4d, isElementSelected {id=3a47ff10-e10a-4430-a0f0-73979b454311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97bf65da73cb1024a61f23bbcd927a4d)] -&gt; css selector: [href=&apos;/en/destinations&apos;]&gt;.vector-icon]
+Session ID: 97bf65da73cb1024a61f23bbcd927a4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+	at pageObjects.MainPage.openDestinations(MainPage.java:190)
+	at pageObjects.MainPage.createTripByDestinationOnly(MainPage.java:552)
+	at tests.CreateTripByDestinationOnlyTest.createTripByDestinationOnly(CreateTripByDestinationOnlyTest.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>6</td>
+<td>tests.CreateTripByDestinationOnlyTest@41aaedaa</td></tr>
+<tr>
+<td title='tests.DeleteMyTrip.deleteMyTrip()'><b>deleteMyTrip</b><br>Test class: tests.DeleteMyTrip</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at tests.DeleteMyTrip.deleteMyTrip(DeleteMyTrip.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace889096613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace889096613'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at tests.DeleteMyTrip.deleteMyTrip(DeleteMyTrip.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>6</td>
+<td>tests.DeleteMyTrip@30404dba</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByWineAndGastronomyCategory.createNewFlexibleTripByWineAndGastronomyCategory()'><b>createNewFlexibleTripByWineAndGastronomyCategory</b><br>Test class: tests.CreateNewFlexibleTripByWineAndGastronomyCategory</td>
 <td><div><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
@@ -491,24 +1188,24 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleNatureTripByCategory(MainPage.java:442)
-	at tests.CreateNewFlexibleTripByMountainsAndForestsCategory.createNewFlexibleTripByMountainsAndForestsCategory(CreateNewFlexibleTripByMountainsAndForestsCategory.java:11)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
+	at tests.CreateNewFlexibleTripByWineAndGastronomyCategory.createNewFlexibleTripByWineAndGastronomyCategory(CreateNewFlexibleTripByWineAndGastronomyCategory.java:11)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1587099952", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1587099952'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1990991088", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1990991088'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-	at pageObjects.MainPage.createNewFlexibleNatureTripByCategory(MainPage.java:442)
-	at tests.CreateNewFlexibleTripByMountainsAndForestsCategory.createNewFlexibleTripByMountainsAndForestsCategory(CreateNewFlexibleTripByMountainsAndForestsCategory.java:11)
+	at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
+	at tests.CreateNewFlexibleTripByWineAndGastronomyCategory.createNewFlexibleTripByWineAndGastronomyCategory(CreateNewFlexibleTripByWineAndGastronomyCategory.java:11)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -543,7 +1240,71 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 </pre></div></td>
 <td>5</td>
-<td>tests.CreateNewFlexibleTripByMountainsAndForestsCategory@38548b19</td></tr>
+<td>tests.CreateNewFlexibleTripByWineAndGastronomyCategory@51751e5f</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByVacationCategory.createNewFlexibleTripByVacationCategory()'><b>createNewFlexibleTripByVacationCategory</b><br>Test class: tests.CreateNewFlexibleTripByVacationCategory</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+	at pageObjects.MainPage.createNewFlexibleRomanticTripByCategory(MainPage.java:418)
+	at tests.CreateNewFlexibleTripByVacationCategory.createNewFlexibleTripByVacationCategory(CreateNewFlexibleTripByVacationCategory.java:11)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace96633532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace96633532'><pre>java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+	at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+	at pageObjects.MainPage.createNewFlexibleRomanticTripByCategory(MainPage.java:418)
+	at tests.CreateNewFlexibleTripByVacationCategory.createNewFlexibleTripByVacationCategory(CreateNewFlexibleTripByVacationCategory.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+</pre></div></td>
+<td>5</td>
+<td>tests.CreateNewFlexibleTripByVacationCategory@7e46d648</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -553,200 +1314,150 @@ Session ID: 139abf1d2fbbea13fb3279884aa36bb7
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.CreateNewFlexibleNatureTrip.createNewFlexibleNatureTrip()'><b>createNewFlexibleNatureTrip</b><br>Test class: tests.CreateNewFlexibleNatureTrip</td>
+<td title='tests.CreateNewFlexibleTripByExtendedFamilyCategory.createNewFlexibleTripByExtendedFamilyCategory()'><b>createNewFlexibleTripByExtendedFamilyCategory</b><br>Test class: tests.CreateNewFlexibleTripByExtendedFamilyCategory</td>
 <td></td>
-<td>49</td>
-<td>tests.CreateNewFlexibleNatureTrip@4e8e8621</td></tr>
+<td>70</td>
+<td>tests.CreateNewFlexibleTripByExtendedFamilyCategory@7068f7ca</td></tr>
 <tr>
-<td title='tests.CreateTripByDestinationOnlyTest.createTripByDestinationOnly()'><b>createTripByDestinationOnly</b><br>Test class: tests.CreateTripByDestinationOnlyTest</td>
+<td title='tests.OpenLinksTest.tc6_openServiceExperiencesTest()'><b>tc6_openServiceExperiencesTest</b><br>Test class: tests.OpenLinksTest</td>
 <td></td>
-<td>72</td>
-<td>tests.CreateTripByDestinationOnlyTest@75b3673</td></tr>
+<td>4</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
 <tr>
-<td title='tests.CreateNewFlexibleTripByThemeParksCategory.createNewFlexibleTripByThemeParksCategory()'><b>createNewFlexibleTripByThemeParksCategory</b><br>Test class: tests.CreateNewFlexibleTripByThemeParksCategory</td>
+<td title='tests.CreateNewFlexibleTripByMountainsAndForestsCategory.createNewFlexibleTripByMountainsAndForestsCategory()'><b>createNewFlexibleTripByMountainsAndForestsCategory</b><br>Test class: tests.CreateNewFlexibleTripByMountainsAndForestsCategory</td>
 <td></td>
-<td>30</td>
-<td>tests.CreateNewFlexibleTripByThemeParksCategory@5d235104</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleBusinessTrip.createNewFlexibleBusinessTrip()'><b>createNewFlexibleBusinessTrip</b><br>Test class: tests.CreateNewFlexibleBusinessTrip</td>
-<td></td>
-<td>44</td>
-<td>tests.CreateNewFlexibleBusinessTrip@303a5119</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleRomanticTrip.createNewFlexibleRomanticTrip()'><b>createNewFlexibleRomanticTrip</b><br>Test class: tests.CreateNewFlexibleRomanticTrip</td>
-<td></td>
-<td>54</td>
-<td>tests.CreateNewFlexibleRomanticTrip@3af356f</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleThemeTrip.createNewFlexibleThemeTrip()'><b>createNewFlexibleThemeTrip</b><br>Test class: tests.CreateNewFlexibleThemeTrip</td>
-<td></td>
-<td>63</td>
-<td>tests.CreateNewFlexibleThemeTrip@4443ef6f</td></tr>
-<tr>
-<td title='tests.LoginTest.loginSucceedTest()'><b>loginSucceedTest</b><br>Test class: tests.LoginTest</td>
-<td></td>
-<td>12</td>
-<td>tests.LoginTest@6050462a</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByRunningCategory.createNewFlexibleTripByRunningCategory()'><b>createNewFlexibleTripByRunningCategory</b><br>Test class: tests.CreateNewFlexibleTripByRunningCategory</td>
-<td></td>
-<td>31</td>
-<td>tests.CreateNewFlexibleTripByRunningCategory@783efb48</td></tr>
-<tr>
-<td title='tests.LogOutTest.logOutTest()'><b>logOutTest</b><br>Test class: tests.LogOutTest</td>
-<td></td>
-<td>9</td>
-<td>tests.LogOutTest@37095ded</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleFamilyTrip.createNewFlexibleFamilyTrip()'><b>createNewFlexibleFamilyTrip</b><br>Test class: tests.CreateNewFlexibleFamilyTrip</td>
-<td></td>
-<td>59</td>
-<td>tests.CreateNewFlexibleFamilyTrip@3e83c18</td></tr>
+<td>36</td>
+<td>tests.CreateNewFlexibleTripByMountainsAndForestsCategory@2b0b4d53</td></tr>
 <tr>
 <td title='tests.CreateNewFlexibleTripByHoneymoonCategory.createNewFlexibleTripByHoneymoonCategory()'><b>createNewFlexibleTripByHoneymoonCategory</b><br>Test class: tests.CreateNewFlexibleTripByHoneymoonCategory</td>
 <td></td>
 <td>54</td>
-<td>tests.CreateNewFlexibleTripByHoneymoonCategory@5bfc257</td></tr>
+<td>tests.CreateNewFlexibleTripByHoneymoonCategory@73877e19</td></tr>
 <tr>
-<td title='tests.CreateNewFlexibleTripByAnniversaryCategory.createNewFlexibleTripByAnniversaryCategory()'><b>createNewFlexibleTripByAnniversaryCategory</b><br>Test class: tests.CreateNewFlexibleTripByAnniversaryCategory</td>
+<td title='tests.OpenLinksTest.tc5_openServiceFlightsTest()'><b>tc5_openServiceFlightsTest</b><br>Test class: tests.OpenLinksTest</td>
 <td></td>
-<td>44</td>
-<td>tests.CreateNewFlexibleTripByAnniversaryCategory@34523d46</td></tr>
+<td>2</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
 <tr>
 <td title='tests.OpenLinksTest.tc7_openServiceInsuranceTest()'><b>tc7_openServiceInsuranceTest</b><br>Test class: tests.OpenLinksTest</td>
 <td></td>
-<td>2</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
+<td>9</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
 <tr>
 <td title='tests.ChangeCurrencyTest.changeCurrencyToDollarTest()'><b>changeCurrencyToDollarTest</b><br>Test class: tests.ChangeCurrencyTest</td>
 <td></td>
 <td>6</td>
-<td>tests.ChangeCurrencyTest@340b7ef6</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByIslandsAndBeachesCategory.createNewFlexibleTripByIslandsAndBeachesCategory()'><b>createNewFlexibleTripByIslandsAndBeachesCategory</b><br>Test class: tests.CreateNewFlexibleTripByIslandsAndBeachesCategory</td>
-<td></td>
-<td>35</td>
-<td>tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@c446b14</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByVacationCategory.createNewFlexibleTripByVacationCategory()'><b>createNewFlexibleTripByVacationCategory</b><br>Test class: tests.CreateNewFlexibleTripByVacationCategory</td>
-<td></td>
-<td>68</td>
-<td>tests.CreateNewFlexibleTripByVacationCategory@2b0b4d53</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByAnnualCategory.createNewFlexibleTripByAnnualCategory()'><b>createNewFlexibleTripByAnnualCategory</b><br>Test class: tests.CreateNewFlexibleTripByAnnualCategory</td>
-<td></td>
-<td>38</td>
-<td>tests.CreateNewFlexibleTripByAnnualCategory@2cfbeac4</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByBirthdayCategory.createNewFlexibleTripByBirthdayCategory()'><b>createNewFlexibleTripByBirthdayCategory</b><br>Test class: tests.CreateNewFlexibleTripByBirthdayCategory</td>
-<td></td>
-<td>68</td>
-<td>tests.CreateNewFlexibleTripByBirthdayCategory@6fca2a8f</td></tr>
+<td>tests.ChangeCurrencyTest@23ee75c5</td></tr>
 <tr>
 <td title='tests.CreateNewFlexibleTripByTennisCategory.createNewFlexibleTripByTennisCategory()'><b>createNewFlexibleTripByTennisCategory</b><br>Test class: tests.CreateNewFlexibleTripByTennisCategory</td>
 <td></td>
 <td>38</td>
-<td>tests.CreateNewFlexibleTripByTennisCategory@31fc71ab</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByMusicCategory.createNewFlexibleTripByMusicCategory()'><b>createNewFlexibleTripByMusicCategory</b><br>Test class: tests.CreateNewFlexibleTripByMusicCategory</td>
-<td></td>
-<td>31</td>
-<td>tests.CreateNewFlexibleTripByMusicCategory@11841b15</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc6_openServiceExperiencesTest()'><b>tc6_openServiceExperiencesTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>5</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc2_openmMyTripsTest()'><b>tc2_openmMyTripsTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>6</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc8_openServiceCarRentalTest()'><b>tc8_openServiceCarRentalTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>3</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleSportTrip.createNewFlexibleSportTrip()'><b>createNewFlexibleSportTrip</b><br>Test class: tests.CreateNewFlexibleSportTrip</td>
-<td></td>
-<td>31</td>
-<td>tests.CreateNewFlexibleSportTrip@1bcb79c2</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc4_openServiceHotelTest()'><b>tc4_openServiceHotelTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>3</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByLeisureCategory.createNewFlexibleTripByLeisureCategory()'><b>createNewFlexibleTripByLeisureCategory</b><br>Test class: tests.CreateNewFlexibleTripByLeisureCategory</td>
-<td></td>
-<td>38</td>
-<td>tests.CreateNewFlexibleTripByLeisureCategory@d1a10ac</td></tr>
-<tr>
-<td title='tests.OpenExistingTrip.openExistingTrip()'><b>openExistingTrip</b><br>Test class: tests.OpenExistingTrip</td>
-<td></td>
-<td>11</td>
-<td>tests.OpenExistingTrip@71391b3f</td></tr>
-<tr>
-<td title='tests.ChangeCurrencyTest.changeCurrencyToEuroTest()'><b>changeCurrencyToEuroTest</b><br>Test class: tests.ChangeCurrencyTest</td>
-<td></td>
-<td>6</td>
-<td>tests.ChangeCurrencyTest@340b7ef6</td></tr>
-<tr>
-<td title='tests.ChangeCurrencyTest.changeCurrencyToShekelTest()'><b>changeCurrencyToShekelTest</b><br>Test class: tests.ChangeCurrencyTest</td>
-<td></td>
-<td>8</td>
-<td>tests.ChangeCurrencyTest@340b7ef6</td></tr>
-<tr>
-<td title='tests.DeleteMyTrip.deleteMyTrip()'><b>deleteMyTrip</b><br>Test class: tests.DeleteMyTrip</td>
-<td></td>
-<td>13</td>
-<td>tests.DeleteMyTrip@4c0884e8</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByCyclingCategory.createNewFlexibleTripByCyclingCategory()'><b>createNewFlexibleTripByCyclingCategory</b><br>Test class: tests.CreateNewFlexibleTripByCyclingCategory</td>
-<td></td>
-<td>38</td>
-<td>tests.CreateNewFlexibleTripByCyclingCategory@7b208b45</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc5_openServiceFlightsTest()'><b>tc5_openServiceFlightsTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>4</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.OpenLinksTest.tc1_openDestinationsTest()'><b>tc1_openDestinationsTest</b><br>Test class: tests.OpenLinksTest</td>
-<td></td>
-<td>3</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
-<tr>
-<td title='tests.CreateNewFlexibleTripByExtendedFamilyCategory.createNewFlexibleTripByExtendedFamilyCategory()'><b>createNewFlexibleTripByExtendedFamilyCategory</b><br>Test class: tests.CreateNewFlexibleTripByExtendedFamilyCategory</td>
-<td></td>
-<td>70</td>
-<td>tests.CreateNewFlexibleTripByExtendedFamilyCategory@41aaedaa</td></tr>
+<td>tests.CreateNewFlexibleTripByTennisCategory@d1a10ac</td></tr>
 <tr>
 <td title='tests.CreateNewFlexibleTripByBasketballCategory.createNewFlexibleTripByBasketballCategory()'><b>createNewFlexibleTripByBasketballCategory</b><br>Test class: tests.CreateNewFlexibleTripByBasketballCategory</td>
 <td></td>
 <td>38</td>
-<td>tests.CreateNewFlexibleTripByBasketballCategory@73877e19</td></tr>
+<td>tests.CreateNewFlexibleTripByBasketballCategory@231baf51</td></tr>
 <tr>
-<td title='tests.CreateNewFlexibleTripByWineAndGastronomyCategory.createNewFlexibleTripByWineAndGastronomyCategory()'><b>createNewFlexibleTripByWineAndGastronomyCategory</b><br>Test class: tests.CreateNewFlexibleTripByWineAndGastronomyCategory</td>
+<td title='tests.LoginTest.loginSucceedTest()'><b>loginSucceedTest</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>12</td>
+<td>tests.LoginTest@340b7ef6</td></tr>
+<tr>
+<td title='tests.ChangeCurrencyTest.changeCurrencyToShekelTest()'><b>changeCurrencyToShekelTest</b><br>Test class: tests.ChangeCurrencyTest</td>
+<td></td>
+<td>8</td>
+<td>tests.ChangeCurrencyTest@23ee75c5</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleNatureTrip.createNewFlexibleNatureTrip()'><b>createNewFlexibleNatureTrip</b><br>Test class: tests.CreateNewFlexibleNatureTrip</td>
 <td></td>
 <td>49</td>
-<td>tests.CreateNewFlexibleTripByWineAndGastronomyCategory@7068f7ca</td></tr>
+<td>tests.CreateNewFlexibleNatureTrip@783efb48</td></tr>
 <tr>
-<td title='tests.CreateNewFlexibleTripPresetDestTest.createNewFlexibleTripPresetDest()'><b>createNewFlexibleTripPresetDest</b><br>Test class: tests.CreateNewFlexibleTripPresetDestTest</td>
+<td title='tests.OpenLinksTest.tc4_openServiceHotelTest()'><b>tc4_openServiceHotelTest</b><br>Test class: tests.OpenLinksTest</td>
 <td></td>
-<td>30</td>
-<td>tests.CreateNewFlexibleTripPresetDestTest@30404dba</td></tr>
+<td>2</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
 <tr>
-<td title='tests.OpenLinksTest.tc3_openCovidAssistTest()'><b>tc3_openCovidAssistTest</b><br>Test class: tests.OpenLinksTest</td>
+<td title='tests.CreateNewFlexibleTripByAnnualCategory.createNewFlexibleTripByAnnualCategory()'><b>createNewFlexibleTripByAnnualCategory</b><br>Test class: tests.CreateNewFlexibleTripByAnnualCategory</td>
 <td></td>
-<td>3</td>
-<td>tests.OpenLinksTest@7e46d648</td></tr>
+<td>38</td>
+<td>tests.CreateNewFlexibleTripByAnnualCategory@31fc71ab</td></tr>
+<tr>
+<td title='tests.OpenLinksTest.tc8_openServiceCarRentalTest()'><b>tc8_openServiceCarRentalTest</b><br>Test class: tests.OpenLinksTest</td>
+<td></td>
+<td>4</td>
+<td>tests.OpenLinksTest@3af356f</td></tr>
+<tr>
+<td title='tests.ChangeCurrencyTest.changeCurrencyToEuroTest()'><b>changeCurrencyToEuroTest</b><br>Test class: tests.ChangeCurrencyTest</td>
+<td></td>
+<td>6</td>
+<td>tests.ChangeCurrencyTest@23ee75c5</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleFamilyTrip.createNewFlexibleFamilyTrip()'><b>createNewFlexibleFamilyTrip</b><br>Test class: tests.CreateNewFlexibleFamilyTrip</td>
+<td></td>
+<td>59</td>
+<td>tests.CreateNewFlexibleFamilyTrip@34523d46</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByBarMitzvahCategory.createNewFlexibleTripByBarMitzvahCategory()'><b>createNewFlexibleTripByBarMitzvahCategory</b><br>Test class: tests.CreateNewFlexibleTripByBarMitzvahCategory</td>
+<td></td>
+<td>29</td>
+<td>tests.CreateNewFlexibleTripByBarMitzvahCategory@6050462a</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByAnniversaryCategory.createNewFlexibleTripByAnniversaryCategory()'><b>createNewFlexibleTripByAnniversaryCategory</b><br>Test class: tests.CreateNewFlexibleTripByAnniversaryCategory</td>
+<td></td>
+<td>45</td>
+<td>tests.CreateNewFlexibleTripByAnniversaryCategory@7b208b45</td></tr>
 <tr>
 <td title='tests.LoginTest.loginFailedTest()'><b>loginFailedTest</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>10</td>
-<td>tests.LoginTest@6050462a</td></tr>
+<td>tests.LoginTest@340b7ef6</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleSportTrip.createNewFlexibleSportTrip()'><b>createNewFlexibleSportTrip</b><br>Test class: tests.CreateNewFlexibleSportTrip</td>
+<td></td>
+<td>31</td>
+<td>tests.CreateNewFlexibleSportTrip@303a5119</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByCultureCategory.createNewFlexibleTripByCultureCategory()'><b>createNewFlexibleTripByCultureCategory</b><br>Test class: tests.CreateNewFlexibleTripByCultureCategory</td>
+<td></td>
+<td>39</td>
+<td>tests.CreateNewFlexibleTripByCultureCategory@56da52a7</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByBirthdayCategory.createNewFlexibleTripByBirthdayCategory()'><b>createNewFlexibleTripByBirthdayCategory</b><br>Test class: tests.CreateNewFlexibleTripByBirthdayCategory</td>
+<td></td>
+<td>68</td>
+<td>tests.CreateNewFlexibleTripByBirthdayCategory@1bcb79c2</td></tr>
+<tr>
+<td title='tests.LogOutTest.logOutTest()'><b>logOutTest</b><br>Test class: tests.LogOutTest</td>
+<td></td>
+<td>9</td>
+<td>tests.LogOutTest@aa10649</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByIslandsAndBeachesCategory.createNewFlexibleTripByIslandsAndBeachesCategory()'><b>createNewFlexibleTripByIslandsAndBeachesCategory</b><br>Test class: tests.CreateNewFlexibleTripByIslandsAndBeachesCategory</td>
+<td></td>
+<td>35</td>
+<td>tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@5d235104</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByCyclingCategory.createNewFlexibleTripByCyclingCategory()'><b>createNewFlexibleTripByCyclingCategory</b><br>Test class: tests.CreateNewFlexibleTripByCyclingCategory</td>
+<td></td>
+<td>38</td>
+<td>tests.CreateNewFlexibleTripByCyclingCategory@11841b15</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleThemeTrip.createNewFlexibleThemeTrip()'><b>createNewFlexibleThemeTrip</b><br>Test class: tests.CreateNewFlexibleThemeTrip</td>
+<td></td>
+<td>63</td>
+<td>tests.CreateNewFlexibleThemeTrip@c446b14</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleBusinessTrip.createNewFlexibleBusinessTrip()'><b>createNewFlexibleBusinessTrip</b><br>Test class: tests.CreateNewFlexibleBusinessTrip</td>
+<td></td>
+<td>44</td>
+<td>tests.CreateNewFlexibleBusinessTrip@38548b19</td></tr>
+<tr>
+<td title='tests.CreateNewFlexibleTripByLeisureCategory.createNewFlexibleTripByLeisureCategory()'><b>createNewFlexibleTripByLeisureCategory</b><br>Test class: tests.CreateNewFlexibleTripByLeisureCategory</td>
+<td></td>
+<td>38</td>
+<td>tests.CreateNewFlexibleTripByLeisureCategory@75b3673</td></tr>
 </table><p>
 </body>
 </html>

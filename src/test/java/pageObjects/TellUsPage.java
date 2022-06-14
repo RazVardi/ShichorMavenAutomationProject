@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class TellUsPage extends BasePage{
 	
 	
@@ -28,6 +30,7 @@ public class TellUsPage extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Step("set profile graph value for business category")
 	public String businessSetGraphs() {
 		Integer counter=0;
 		for (int i=0;i<title.size();i++) {
@@ -58,6 +61,7 @@ public class TellUsPage extends BasePage{
 		return strCounter;
 	}
 	
+	@Step("set profile graph value for family category")
 	public String[] familySetGraphs(String category) {
 		Integer counter=0;
 		if(category.equals("Family") || category.equals("Extended family")) {
@@ -171,6 +175,7 @@ public class TellUsPage extends BasePage{
 		}
 	}
 	
+	@Step("set profile graph value for nature category")
 	public String[] natureSetGraphs(String category) {
 		Integer counter=0;
 		if(category.equals("Nature")) {
@@ -234,6 +239,7 @@ public class TellUsPage extends BasePage{
 		}
 	}
 	
+	@Step("set profile graph value for romantic category")
 	public String [] romanticSetGraphs(String category) {
 		//List<Integer>myList=new ArrayList<Integer>();
 		Integer counter=0;
@@ -392,6 +398,7 @@ public class TellUsPage extends BasePage{
 		}
 	}
 	
+	@Step("set profile graph value for sport category")
 	public String sportSetGraphs() {
 		Integer counter=0;
 		sleep(1000L);
@@ -450,6 +457,7 @@ public class TellUsPage extends BasePage{
 		}
 	}
 	
+	@Step("set profile graph value for theme category")
 	public String[] themeSetGraphs(String category) {
 		Integer counter=0;
 		if(category.equals("Theme")) {
@@ -616,6 +624,7 @@ public class TellUsPage extends BasePage{
 		}
 	}
 	
+	@Step("Click on show resaults button")
 	public void showResault() {
 		click(showResaultBtn);
 	}

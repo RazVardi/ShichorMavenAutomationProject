@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.OpenLinksTest">
+        <methods>
+          <include name="tc7_openServiceInsuranceTest"/>
+          <include name="setup"/>
+          <include name="tc8_openServiceCarRentalTest"/>
+          <include name="tc3_openCovidAssistTest"/>
+          <include name="tc5_openServiceFlightsTest"/>
+          <include name="tc4_openServiceHotelTest"/>
+          <include name="tearDown"/>
+          <include name="tc6_openServiceExperiencesTest"/>
+        </methods>
+      </class> <!-- tests.OpenLinksTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

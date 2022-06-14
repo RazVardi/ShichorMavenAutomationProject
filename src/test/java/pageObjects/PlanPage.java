@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class PlanPage extends BasePage{
 	@FindBy(css=".btn-blue.btn-fluid.btn")
 	List<WebElement> startPlan;
@@ -21,12 +23,14 @@ public class PlanPage extends BasePage{
 		click(startPlanEl);
 	}
 	
+	@Step("click on inspire me button")
 	public void inspireMe() {
 		sleep(1000L);
 		WebElement startPlanEl1=startPlan.get(1);
 		click(startPlanEl1);
 	}
 	
+	@Step("click on start planning + button")
 	public void clickOnStartPlanNew() {
 		sleep(2000L);
 		click(startPlanNew);

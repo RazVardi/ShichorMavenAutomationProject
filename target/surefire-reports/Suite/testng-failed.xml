@@ -3,27 +3,57 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="tests.CreateNewFlexibleTripByRecreationCategory">
+      <class name="tests.CreateNewFlexibleTripByRunningCategory">
         <methods>
           <include name="setup"/>
-          <include name="createNewFlexibleTripByRecreationCategory"/>
+          <include name="createNewFlexibleTripByRunningCategory"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByRecreationCategory -->
-      <class name="tests.CreateNewFlexibleTripByCultureCategory">
+      </class> <!-- tests.CreateNewFlexibleTripByRunningCategory -->
+      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory">
         <methods>
           <include name="setup"/>
-          <include name="createNewFlexibleTripByCultureCategory"/>
+          <include name="createNewFlexibleTripByWineAndGastronomyCategory"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByCultureCategory -->
-      <class name="tests.CreateNewFlexibleTripTest">
+      </class> <!-- tests.CreateNewFlexibleTripByWineAndGastronomyCategory -->
+      <class name="tests.CreateNewFlexibleRomanticTrip">
         <methods>
-          <include name="createNewFlexibleTrip"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="createNewFlexibleRomanticTrip"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripTest -->
+      </class> <!-- tests.CreateNewFlexibleRomanticTrip -->
+      <class name="tests.CreateNewFlexibleTripByMusicCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByMusicCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByMusicCategory -->
+      <class name="tests.OpenLinksTest">
+        <methods>
+          <include name="tc1_openDestinationsTest"/>
+          <include name="setup"/>
+          <include name="tc3_openCovidAssistTest"/>
+          <include name="tc2_openmMyTripsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.OpenLinksTest -->
+      <class name="tests.DeleteMyTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteMyTrip"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.DeleteMyTrip -->
+      <class name="tests.CreateTripByDestinationOnlyTest">
+        <methods>
+          <include name="setup"/>
+          <include name="createTripByDestinationOnly"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateTripByDestinationOnlyTest -->
       <class name="tests.CreateNewFlexibleTripByFootballCategory">
         <methods>
           <include name="setup"/>
@@ -31,20 +61,48 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.CreateNewFlexibleTripByFootballCategory -->
-      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory">
+      <class name="tests.CreateNewFlexibleTripPresetDestTest">
         <methods>
-          <include name="createNewFlexibleTripByMountainsAndForestsCategory"/>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripPresetDest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripPresetDestTest -->
+      <class name="tests.CreateNewFlexibleTripByVacationCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByVacationCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByVacationCategory -->
+      <class name="tests.OpenExistingTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="openExistingTrip"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.OpenExistingTrip -->
+      <class name="tests.CreateNewFlexibleTripByThemeParksCategory">
+        <methods>
+          <include name="createNewFlexibleTripByThemeParksCategory"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByMountainsAndForestsCategory -->
-      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory">
+      </class> <!-- tests.CreateNewFlexibleTripByThemeParksCategory -->
+      <class name="tests.CreateNewFlexibleTripTest">
         <methods>
+          <include name="createNewFlexibleTrip"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="createNewFlexibleTripByBarMitzvahCategory"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByBarMitzvahCategory -->
+      </class> <!-- tests.CreateNewFlexibleTripTest -->
+      <class name="tests.CreateNewFlexibleTripByRecreationCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByRecreationCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByRecreationCategory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

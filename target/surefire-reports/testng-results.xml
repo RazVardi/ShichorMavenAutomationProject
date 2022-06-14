@@ -1,155 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="45" passed="39" failed="6" skipped="0">
+<testng-results ignored="0" total="45" passed="29" failed="16" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-13T16:13:41 IDT" name="Suite" finished-at="2022-06-13T16:45:00 IDT" duration-ms="1879367">
+  <suite started-at="2022-06-13T21:00:28 IDT" name="Suite" finished-at="2022-06-13T21:28:21 IDT" duration-ms="1673346">
     <groups>
     </groups>
-    <test started-at="2022-06-13T16:13:41 IDT" name="Test" finished-at="2022-06-13T16:45:00 IDT" duration-ms="1879367">
+    <test started-at="2022-06-13T21:00:28 IDT" name="Test" finished-at="2022-06-13T21:28:21 IDT" duration-ms="1673346">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6050462a]" started-at="2022-06-13T16:16:14 IDT" name="setup" finished-at="2022-06-13T16:16:19 IDT" duration-ms="4747" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@340b7ef6]" started-at="2022-06-13T21:03:56 IDT" name="setup" finished-at="2022-06-13T21:04:02 IDT" duration-ms="5295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginFailedTest()[pri:0, instance:tests.LoginTest@6050462a]" started-at="2022-06-13T16:16:19 IDT" name="loginFailedTest" finished-at="2022-06-13T16:16:29 IDT" duration-ms="10739" status="PASS">
+        <test-method signature="loginFailedTest()[pri:0, instance:tests.LoginTest@340b7ef6]" started-at="2022-06-13T21:04:02 IDT" name="loginFailedTest" finished-at="2022-06-13T21:04:13 IDT" duration-ms="10844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFailedTest -->
-        <test-method signature="loginSucceedTest()[pri:0, instance:tests.LoginTest@6050462a]" started-at="2022-06-13T16:16:29 IDT" name="loginSucceedTest" finished-at="2022-06-13T16:16:42 IDT" duration-ms="12631" status="PASS">
+        <test-method signature="loginSucceedTest()[pri:0, instance:tests.LoginTest@340b7ef6]" started-at="2022-06-13T21:04:13 IDT" name="loginSucceedTest" finished-at="2022-06-13T21:04:25 IDT" duration-ms="12788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSucceedTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@6050462a]" started-at="2022-06-13T16:16:42 IDT" name="tearDown" finished-at="2022-06-13T16:16:47 IDT" duration-ms="5242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@340b7ef6]" started-at="2022-06-13T21:04:25 IDT" name="tearDown" finished-at="2022-06-13T21:04:31 IDT" duration-ms="5254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-      <class name="tests.CreateNewFlexibleSportTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleSportTrip@1bcb79c2]" started-at="2022-06-13T16:39:41 IDT" name="setup" finished-at="2022-06-13T16:39:52 IDT" duration-ms="11375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleSportTrip()[pri:0, instance:tests.CreateNewFlexibleSportTrip@1bcb79c2]" started-at="2022-06-13T16:39:52 IDT" name="createNewFlexibleSportTrip" finished-at="2022-06-13T16:40:24 IDT" duration-ms="31755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleSportTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleSportTrip@1bcb79c2]" started-at="2022-06-13T16:40:24 IDT" name="tearDown" finished-at="2022-06-13T16:40:29 IDT" duration-ms="5282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleSportTrip -->
       <class name="tests.CreateNewFlexibleTripByMusicCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@11841b15]" started-at="2022-06-13T16:17:35 IDT" name="setup" finished-at="2022-06-13T16:17:45 IDT" duration-ms="9457" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@4c0884e8]" started-at="2022-06-13T21:05:38 IDT" name="setup" finished-at="2022-06-13T21:06:02 IDT" duration-ms="23526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByMusicCategory()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@11841b15]" started-at="2022-06-13T16:17:45 IDT" name="createNewFlexibleTripByMusicCategory" finished-at="2022-06-13T16:18:17 IDT" duration-ms="31947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByMusicCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@11841b15]" started-at="2022-06-13T16:18:17 IDT" name="tearDown" finished-at="2022-06-13T16:18:22 IDT" duration-ms="5255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByMusicCategory -->
-      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@231baf51]" started-at="2022-06-13T16:17:16 IDT" name="setup" finished-at="2022-06-13T16:17:25 IDT" duration-ms="9306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByBarMitzvahCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@231baf51]" started-at="2022-06-13T16:17:25 IDT" name="createNewFlexibleTripByBarMitzvahCategory" finished-at="2022-06-13T16:17:30 IDT" duration-ms="5164" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
+        <test-method signature="createNewFlexibleTripByMusicCategory()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@4c0884e8]" started-at="2022-06-13T21:06:02 IDT" name="createNewFlexibleTripByMusicCategory" finished-at="2022-06-13T21:06:32 IDT" duration-ms="30150" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Index 1 out of bounds for length 0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
-at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-at java.base/java.util.Objects.checkIndex(Objects.java:359)
-at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
-at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-at pageObjects.MainPage.createNewFlexibleFamilyTripByCategory(MainPage.java:499)
-at tests.CreateNewFlexibleTripByBarMitzvahCategory.createNewFlexibleTripByBarMitzvahCategory(CreateNewFlexibleTripByBarMitzvahCategory.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByBarMitzvahCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@231baf51]" started-at="2022-06-13T16:17:30 IDT" name="tearDown" finished-at="2022-06-13T16:17:35 IDT" duration-ms="5260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByBarMitzvahCategory -->
-      <class name="tests.CreateNewFlexibleTripByCultureCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@11a7ba62]" started-at="2022-06-13T16:14:32 IDT" name="setup" finished-at="2022-06-13T16:14:41 IDT" duration-ms="9334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByCultureCategory()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@11a7ba62]" started-at="2022-06-13T16:14:41 IDT" name="createNewFlexibleTripByCultureCategory" finished-at="2022-06-13T16:14:51 IDT" duration-ms="10001" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: cannot determine loading status
-from target frame detached
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f80c58071e24587085af22f4601c3c7f, getElementAttribute {id=46f7341e-8d57-4f34-8df1-86b76892afcf, name=style}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59094/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f80c58071e24587085af22f4601c3c7f)] -> css selector: .d-block.text-truncate]
-Session ID: f80c58071e24587085af22f4601c3c7f]]>
+Command: [632a5525e861d7609053f96f9abfcdfd, clickElement {id=c404f893-78c0-44df-9624-0bcbd6b5907d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52377/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (632a5525e861d7609053f96f9abfcdfd)] -> css selector: .app-header__logo]
+Session ID: 632a5525e861d7609053f96f9abfcdfd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f80c58071e24587085af22f4601c3c7f, getElementAttribute {id=46f7341e-8d57-4f34-8df1-86b76892afcf, name=style}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59094/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f80c58071e24587085af22f4601c3c7f)] -> css selector: .d-block.text-truncate]
-Session ID: f80c58071e24587085af22f4601c3c7f
+Command: [632a5525e861d7609053f96f9abfcdfd, clickElement {id=c404f893-78c0-44df-9624-0bcbd6b5907d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52377/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (632a5525e861d7609053f96f9abfcdfd)] -> css selector: .app-header__logo]
+Session ID: 632a5525e861d7609053f96f9abfcdfd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -163,12 +67,15 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:152)
-at pageObjects.BasePage.highlightElement(BasePage.java:51)
-at pageObjects.BasePage.getText(BasePage.java:35)
-at pageObjects.InspirePage.clickByThemeSubCategory(InspirePage.java:163)
-at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:468)
-at tests.CreateNewFlexibleTripByCultureCategory.createNewFlexibleTripByCultureCategory(CreateNewFlexibleTripByCultureCategory.java:11)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObjects.BasePage.click(BasePage.java:31)
+at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+at tests.CreateNewFlexibleTripByMusicCategory.createNewFlexibleTripByMusicCategory(CreateNewFlexibleTripByMusicCategory.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,63 +110,133 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByMusicCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByMusicCategory@4c0884e8]" started-at="2022-06-13T21:06:32 IDT" name="tearDown" finished-at="2022-06-13T21:06:37 IDT" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByMusicCategory -->
+      <class name="tests.CreateNewFlexibleSportTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleSportTrip@303a5119]" started-at="2022-06-13T21:23:06 IDT" name="setup" finished-at="2022-06-13T21:23:16 IDT" duration-ms="9522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleSportTrip()[pri:0, instance:tests.CreateNewFlexibleSportTrip@303a5119]" started-at="2022-06-13T21:23:16 IDT" name="createNewFlexibleSportTrip" finished-at="2022-06-13T21:23:48 IDT" duration-ms="31842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleSportTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleSportTrip@303a5119]" started-at="2022-06-13T21:23:48 IDT" name="tearDown" finished-at="2022-06-13T21:23:53 IDT" duration-ms="5261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleSportTrip -->
+      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@6050462a]" started-at="2022-06-13T21:04:52 IDT" name="setup" finished-at="2022-06-13T21:05:03 IDT" duration-ms="11702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByBarMitzvahCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@6050462a]" started-at="2022-06-13T21:05:03 IDT" name="createNewFlexibleTripByBarMitzvahCategory" finished-at="2022-06-13T21:05:33 IDT" duration-ms="29819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByBarMitzvahCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBarMitzvahCategory@6050462a]" started-at="2022-06-13T21:05:33 IDT" name="tearDown" finished-at="2022-06-13T21:05:38 IDT" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByBarMitzvahCategory -->
+      <class name="tests.CreateNewFlexibleTripByCultureCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@56da52a7]" started-at="2022-06-13T21:01:47 IDT" name="setup" finished-at="2022-06-13T21:01:57 IDT" duration-ms="10157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByCultureCategory()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@56da52a7]" started-at="2022-06-13T21:01:57 IDT" name="createNewFlexibleTripByCultureCategory" finished-at="2022-06-13T21:02:37 IDT" duration-ms="39769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByCultureCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@11a7ba62]" started-at="2022-06-13T16:14:51 IDT" name="tearDown" finished-at="2022-06-13T16:14:57 IDT" duration-ms="5235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByCultureCategory@56da52a7]" started-at="2022-06-13T21:02:37 IDT" name="tearDown" finished-at="2022-06-13T21:02:42 IDT" duration-ms="5269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByCultureCategory -->
       <class name="tests.CreateNewFlexibleTripByExtendedFamilyCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@41aaedaa]" started-at="2022-06-13T16:35:47 IDT" name="setup" finished-at="2022-06-13T16:35:59 IDT" duration-ms="12281" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@7068f7ca]" started-at="2022-06-13T21:20:17 IDT" name="setup" finished-at="2022-06-13T21:20:28 IDT" duration-ms="10522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByExtendedFamilyCategory()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@41aaedaa]" started-at="2022-06-13T16:35:59 IDT" name="createNewFlexibleTripByExtendedFamilyCategory" finished-at="2022-06-13T16:37:09 IDT" duration-ms="70456" status="PASS">
+        <test-method signature="createNewFlexibleTripByExtendedFamilyCategory()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@7068f7ca]" started-at="2022-06-13T21:20:28 IDT" name="createNewFlexibleTripByExtendedFamilyCategory" finished-at="2022-06-13T21:21:38 IDT" duration-ms="70735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByExtendedFamilyCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@41aaedaa]" started-at="2022-06-13T16:37:09 IDT" name="tearDown" finished-at="2022-06-13T16:37:15 IDT" duration-ms="5269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByExtendedFamilyCategory@7068f7ca]" started-at="2022-06-13T21:21:38 IDT" name="tearDown" finished-at="2022-06-13T21:21:44 IDT" duration-ms="5273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByExtendedFamilyCategory -->
-      <class name="tests.CreateNewFlexibleTripByBasketballCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@73877e19]" started-at="2022-06-13T16:18:22 IDT" name="setup" finished-at="2022-06-13T16:18:33 IDT" duration-ms="10975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByBasketballCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@73877e19]" started-at="2022-06-13T16:18:33 IDT" name="createNewFlexibleTripByBasketballCategory" finished-at="2022-06-13T16:19:11 IDT" duration-ms="38069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByBasketballCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@73877e19]" started-at="2022-06-13T16:19:11 IDT" name="tearDown" finished-at="2022-06-13T16:19:16 IDT" duration-ms="5224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByBasketballCategory -->
       <class name="tests.CreateNewFlexibleTripByCyclingCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@7b208b45]" started-at="2022-06-13T16:19:16 IDT" name="setup" finished-at="2022-06-13T16:19:26 IDT" duration-ms="9192" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@11841b15]" started-at="2022-06-13T21:07:32 IDT" name="setup" finished-at="2022-06-13T21:07:41 IDT" duration-ms="9702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByCyclingCategory()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@7b208b45]" started-at="2022-06-13T16:19:26 IDT" name="createNewFlexibleTripByCyclingCategory" finished-at="2022-06-13T16:20:04 IDT" duration-ms="38224" status="PASS">
+        <test-method signature="createNewFlexibleTripByCyclingCategory()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@11841b15]" started-at="2022-06-13T21:07:41 IDT" name="createNewFlexibleTripByCyclingCategory" finished-at="2022-06-13T21:08:20 IDT" duration-ms="38418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByCyclingCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@7b208b45]" started-at="2022-06-13T16:20:04 IDT" name="tearDown" finished-at="2022-06-13T16:20:09 IDT" duration-ms="5255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByCyclingCategory@11841b15]" started-at="2022-06-13T21:08:20 IDT" name="tearDown" finished-at="2022-06-13T21:08:25 IDT" duration-ms="5258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByCyclingCategory -->
-      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@38548b19]" started-at="2022-06-13T16:35:26 IDT" name="setup" finished-at="2022-06-13T16:35:36 IDT" duration-ms="9792" status="PASS">
+      <class name="tests.CreateNewFlexibleTripByBasketballCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@231baf51]" started-at="2022-06-13T21:06:37 IDT" name="setup" finished-at="2022-06-13T21:06:48 IDT" duration-ms="10607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByMountainsAndForestsCategory()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@38548b19]" started-at="2022-06-13T16:35:36 IDT" name="createNewFlexibleTripByMountainsAndForestsCategory" finished-at="2022-06-13T16:35:41 IDT" duration-ms="5120" status="FAIL">
+        <test-method signature="createNewFlexibleTripByBasketballCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@231baf51]" started-at="2022-06-13T21:06:48 IDT" name="createNewFlexibleTripByBasketballCategory" finished-at="2022-06-13T21:07:26 IDT" duration-ms="38313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByBasketballCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBasketballCategory@231baf51]" started-at="2022-06-13T21:07:26 IDT" name="tearDown" finished-at="2022-06-13T21:07:32 IDT" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByBasketballCategory -->
+      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@2b0b4d53]" started-at="2022-06-13T21:19:26 IDT" name="setup" finished-at="2022-06-13T21:19:36 IDT" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByMountainsAndForestsCategory()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@2b0b4d53]" started-at="2022-06-13T21:19:36 IDT" name="createNewFlexibleTripByMountainsAndForestsCategory" finished-at="2022-06-13T21:20:12 IDT" duration-ms="36047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByMountainsAndForestsCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@2b0b4d53]" started-at="2022-06-13T21:20:12 IDT" name="tearDown" finished-at="2022-06-13T21:20:17 IDT" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByMountainsAndForestsCategory -->
+      <class name="tests.CreateNewFlexibleFamilyTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@34523d46]" started-at="2022-06-13T21:11:01 IDT" name="setup" finished-at="2022-06-13T21:11:13 IDT" duration-ms="11645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleFamilyTrip()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@34523d46]" started-at="2022-06-13T21:11:13 IDT" name="createNewFlexibleFamilyTrip" finished-at="2022-06-13T21:12:12 IDT" duration-ms="59412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleFamilyTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@34523d46]" started-at="2022-06-13T21:12:12 IDT" name="tearDown" finished-at="2022-06-13T21:12:18 IDT" duration-ms="5239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleFamilyTrip -->
+      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@51751e5f]" started-at="2022-06-13T21:19:06 IDT" name="setup" finished-at="2022-06-13T21:19:16 IDT" duration-ms="9633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByWineAndGastronomyCategory()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@51751e5f]" started-at="2022-06-13T21:19:16 IDT" name="createNewFlexibleTripByWineAndGastronomyCategory" finished-at="2022-06-13T21:19:21 IDT" duration-ms="5131" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 1 out of bounds for length 0]]>
@@ -271,14 +248,14 @@ at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions
 at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 at java.base/java.util.Objects.checkIndex(Objects.java:359)
 at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-at pageObjects.MainPage.createNewFlexibleNatureTripByCategory(MainPage.java:442)
-at tests.CreateNewFlexibleTripByMountainsAndForestsCategory.createNewFlexibleTripByMountainsAndForestsCategory(CreateNewFlexibleTripByMountainsAndForestsCategory.java:11)
+at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
+at tests.CreateNewFlexibleTripByWineAndGastronomyCategory.createNewFlexibleTripByWineAndGastronomyCategory(CreateNewFlexibleTripByWineAndGastronomyCategory.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -316,298 +293,902 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByMountainsAndForestsCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByMountainsAndForestsCategory@38548b19]" started-at="2022-06-13T16:35:41 IDT" name="tearDown" finished-at="2022-06-13T16:35:47 IDT" duration-ms="5246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByMountainsAndForestsCategory -->
-      <class name="tests.CreateNewFlexibleFamilyTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@3e83c18]" started-at="2022-06-13T16:22:37 IDT" name="setup" finished-at="2022-06-13T16:22:46 IDT" duration-ms="9252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleFamilyTrip()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@3e83c18]" started-at="2022-06-13T16:22:46 IDT" name="createNewFlexibleFamilyTrip" finished-at="2022-06-13T16:23:45 IDT" duration-ms="59215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleFamilyTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleFamilyTrip@3e83c18]" started-at="2022-06-13T16:23:45 IDT" name="tearDown" finished-at="2022-06-13T16:23:52 IDT" duration-ms="6923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleFamilyTrip -->
-      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@7068f7ca]" started-at="2022-06-13T16:34:18 IDT" name="setup" finished-at="2022-06-13T16:34:31 IDT" duration-ms="13602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByWineAndGastronomyCategory()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@7068f7ca]" started-at="2022-06-13T16:34:31 IDT" name="createNewFlexibleTripByWineAndGastronomyCategory" finished-at="2022-06-13T16:35:21 IDT" duration-ms="49984" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- createNewFlexibleTripByWineAndGastronomyCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@7068f7ca]" started-at="2022-06-13T16:35:21 IDT" name="tearDown" finished-at="2022-06-13T16:35:26 IDT" duration-ms="5259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByWineAndGastronomyCategory@51751e5f]" started-at="2022-06-13T21:19:21 IDT" name="tearDown" finished-at="2022-06-13T21:19:26 IDT" duration-ms="5297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByWineAndGastronomyCategory -->
-      <class name="tests.CreateNewFlexibleTripByAnnualCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@2cfbeac4]" started-at="2022-06-13T16:44:07 IDT" name="setup" finished-at="2022-06-13T16:44:16 IDT" duration-ms="9237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByAnnualCategory()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@2cfbeac4]" started-at="2022-06-13T16:44:16 IDT" name="createNewFlexibleTripByAnnualCategory" finished-at="2022-06-13T16:44:55 IDT" duration-ms="38491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByAnnualCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@2cfbeac4]" started-at="2022-06-13T16:44:55 IDT" name="tearDown" finished-at="2022-06-13T16:45:00 IDT" duration-ms="5278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByAnnualCategory -->
       <class name="tests.CreateNewFlexibleTripByTennisCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@31fc71ab]" started-at="2022-06-13T16:42:47 IDT" name="setup" finished-at="2022-06-13T16:42:56 IDT" duration-ms="9380" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@d1a10ac]" started-at="2022-06-13T21:26:12 IDT" name="setup" finished-at="2022-06-13T21:26:22 IDT" duration-ms="9689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByTennisCategory()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@31fc71ab]" started-at="2022-06-13T16:42:56 IDT" name="createNewFlexibleTripByTennisCategory" finished-at="2022-06-13T16:43:34 IDT" duration-ms="38169" status="PASS">
+        <test-method signature="createNewFlexibleTripByTennisCategory()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@d1a10ac]" started-at="2022-06-13T21:26:22 IDT" name="createNewFlexibleTripByTennisCategory" finished-at="2022-06-13T21:27:00 IDT" duration-ms="38474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByTennisCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@31fc71ab]" started-at="2022-06-13T16:43:34 IDT" name="tearDown" finished-at="2022-06-13T16:43:39 IDT" duration-ms="5254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByTennisCategory@d1a10ac]" started-at="2022-06-13T21:27:00 IDT" name="tearDown" finished-at="2022-06-13T21:27:05 IDT" duration-ms="5257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByTennisCategory -->
       <class name="tests.CreateNewFlexibleTripByBirthdayCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@6fca2a8f]" started-at="2022-06-13T16:41:23 IDT" name="setup" finished-at="2022-06-13T16:41:33 IDT" duration-ms="10368" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@1bcb79c2]" started-at="2022-06-13T21:24:47 IDT" name="setup" finished-at="2022-06-13T21:24:58 IDT" duration-ms="11105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByBirthdayCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@6fca2a8f]" started-at="2022-06-13T16:41:33 IDT" name="createNewFlexibleTripByBirthdayCategory" finished-at="2022-06-13T16:42:41 IDT" duration-ms="68430" status="PASS">
+        <test-method signature="createNewFlexibleTripByBirthdayCategory()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@1bcb79c2]" started-at="2022-06-13T21:24:58 IDT" name="createNewFlexibleTripByBirthdayCategory" finished-at="2022-06-13T21:26:07 IDT" duration-ms="68632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByBirthdayCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@6fca2a8f]" started-at="2022-06-13T16:42:41 IDT" name="tearDown" finished-at="2022-06-13T16:42:47 IDT" duration-ms="5287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByBirthdayCategory@1bcb79c2]" started-at="2022-06-13T21:26:07 IDT" name="tearDown" finished-at="2022-06-13T21:26:12 IDT" duration-ms="5261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByBirthdayCategory -->
-      <class name="tests.CreateNewFlexibleTripPresetDestTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@30404dba]" started-at="2022-06-13T16:15:29 IDT" name="setup" finished-at="2022-06-13T16:15:38 IDT" duration-ms="9169" status="PASS">
+      <class name="tests.CreateNewFlexibleTripByAnnualCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@31fc71ab]" started-at="2022-06-13T21:27:28 IDT" name="setup" finished-at="2022-06-13T21:27:37 IDT" duration-ms="9546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripPresetDest()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@30404dba]" started-at="2022-06-13T16:15:38 IDT" name="createNewFlexibleTripPresetDest" finished-at="2022-06-13T16:16:09 IDT" duration-ms="30755" status="PASS">
+        <test-method signature="createNewFlexibleTripByAnnualCategory()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@31fc71ab]" started-at="2022-06-13T21:27:37 IDT" name="createNewFlexibleTripByAnnualCategory" finished-at="2022-06-13T21:28:16 IDT" duration-ms="38601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByAnnualCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByAnnualCategory@31fc71ab]" started-at="2022-06-13T21:28:16 IDT" name="tearDown" finished-at="2022-06-13T21:28:21 IDT" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByAnnualCategory -->
+      <class name="tests.CreateNewFlexibleTripPresetDestTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@11a7ba62]" started-at="2022-06-13T21:03:14 IDT" name="setup" finished-at="2022-06-13T21:03:25 IDT" duration-ms="10906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripPresetDest()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@11a7ba62]" started-at="2022-06-13T21:03:25 IDT" name="createNewFlexibleTripPresetDest" finished-at="2022-06-13T21:03:51 IDT" duration-ms="26436" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10b2b1055123e918dcc4eef6f1cff25e, isElementSelected {id=20f24247-1f35-4c67-ae7a-a44bcb16b94c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10b2b1055123e918dcc4eef6f1cff25e)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 10b2b1055123e918dcc4eef6f1cff25e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10b2b1055123e918dcc4eef6f1cff25e, isElementSelected {id=20f24247-1f35-4c67-ae7a-a44bcb16b94c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51984/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (10b2b1055123e918dcc4eef6f1cff25e)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 10b2b1055123e918dcc4eef6f1cff25e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+at pageObjects.MainPage.createNewFlexibleTripPresetDest(MainPage.java:301)
+at tests.CreateNewFlexibleTripPresetDestTest.createNewFlexibleTripPresetDest(CreateNewFlexibleTripPresetDestTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripPresetDest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@30404dba]" started-at="2022-06-13T16:16:09 IDT" name="tearDown" finished-at="2022-06-13T16:16:14 IDT" duration-ms="5297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripPresetDestTest@11a7ba62]" started-at="2022-06-13T21:03:51 IDT" name="tearDown" finished-at="2022-06-13T21:03:56 IDT" duration-ms="5301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripPresetDestTest -->
       <class name="tests.CreateNewFlexibleThemeTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@4443ef6f]" started-at="2022-06-13T16:28:37 IDT" name="setup" finished-at="2022-06-13T16:28:46 IDT" duration-ms="9080" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@c446b14]" started-at="2022-06-13T21:16:11 IDT" name="setup" finished-at="2022-06-13T21:16:22 IDT" duration-ms="10242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleThemeTrip()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@4443ef6f]" started-at="2022-06-13T16:28:46 IDT" name="createNewFlexibleThemeTrip" finished-at="2022-06-13T16:29:49 IDT" duration-ms="63247" status="PASS">
+        <test-method signature="createNewFlexibleThemeTrip()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@c446b14]" started-at="2022-06-13T21:16:22 IDT" name="createNewFlexibleThemeTrip" finished-at="2022-06-13T21:17:26 IDT" duration-ms="63950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleThemeTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@4443ef6f]" started-at="2022-06-13T16:29:49 IDT" name="tearDown" finished-at="2022-06-13T16:29:55 IDT" duration-ms="5272" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleThemeTrip@c446b14]" started-at="2022-06-13T21:17:26 IDT" name="tearDown" finished-at="2022-06-13T21:17:31 IDT" duration-ms="5260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleThemeTrip -->
       <class name="tests.CreateTripByDestinationOnlyTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@75b3673]" started-at="2022-06-13T16:38:13 IDT" name="setup" finished-at="2022-06-13T16:38:23 IDT" duration-ms="9467" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@41aaedaa]" started-at="2022-06-13T21:22:43 IDT" name="setup" finished-at="2022-06-13T21:22:55 IDT" duration-ms="11560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createTripByDestinationOnly()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@75b3673]" started-at="2022-06-13T16:38:23 IDT" name="createTripByDestinationOnly" finished-at="2022-06-13T16:39:35 IDT" duration-ms="72737" status="PASS">
+        <test-method signature="createTripByDestinationOnly()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@41aaedaa]" started-at="2022-06-13T21:22:55 IDT" name="createTripByDestinationOnly" finished-at="2022-06-13T21:23:01 IDT" duration-ms="6168" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97bf65da73cb1024a61f23bbcd927a4d, isElementSelected {id=3a47ff10-e10a-4430-a0f0-73979b454311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97bf65da73cb1024a61f23bbcd927a4d)] -> css selector: [href='/en/destinations']>.vector-icon]
+Session ID: 97bf65da73cb1024a61f23bbcd927a4d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97bf65da73cb1024a61f23bbcd927a4d, isElementSelected {id=3a47ff10-e10a-4430-a0f0-73979b454311}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54230}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97bf65da73cb1024a61f23bbcd927a4d)] -> css selector: [href='/en/destinations']>.vector-icon]
+Session ID: 97bf65da73cb1024a61f23bbcd927a4d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+at pageObjects.MainPage.openDestinations(MainPage.java:190)
+at pageObjects.MainPage.createTripByDestinationOnly(MainPage.java:552)
+at tests.CreateTripByDestinationOnlyTest.createTripByDestinationOnly(CreateTripByDestinationOnlyTest.java:10)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTripByDestinationOnly -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@75b3673]" started-at="2022-06-13T16:39:35 IDT" name="tearDown" finished-at="2022-06-13T16:39:41 IDT" duration-ms="5342" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateTripByDestinationOnlyTest@41aaedaa]" started-at="2022-06-13T21:23:01 IDT" name="tearDown" finished-at="2022-06-13T21:23:06 IDT" duration-ms="5296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateTripByDestinationOnlyTest -->
       <class name="tests.CreateNewFlexibleTripByHoneymoonCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@5bfc257]" started-at="2022-06-13T16:20:09 IDT" name="setup" finished-at="2022-06-13T16:20:18 IDT" duration-ms="9336" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@73877e19]" started-at="2022-06-13T21:08:25 IDT" name="setup" finished-at="2022-06-13T21:08:37 IDT" duration-ms="11900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByHoneymoonCategory()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@5bfc257]" started-at="2022-06-13T16:20:18 IDT" name="createNewFlexibleTripByHoneymoonCategory" finished-at="2022-06-13T16:21:13 IDT" duration-ms="54352" status="PASS">
+        <test-method signature="createNewFlexibleTripByHoneymoonCategory()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@73877e19]" started-at="2022-06-13T21:08:37 IDT" name="createNewFlexibleTripByHoneymoonCategory" finished-at="2022-06-13T21:09:32 IDT" duration-ms="54715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByHoneymoonCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@5bfc257]" started-at="2022-06-13T16:21:13 IDT" name="tearDown" finished-at="2022-06-13T16:21:18 IDT" duration-ms="5257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByHoneymoonCategory@73877e19]" started-at="2022-06-13T21:09:32 IDT" name="tearDown" finished-at="2022-06-13T21:09:37 IDT" duration-ms="5256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByHoneymoonCategory -->
       <class name="tests.OpenLinksTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:29:55 IDT" name="setup" finished-at="2022-06-13T16:30:05 IDT" duration-ms="10056" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:31 IDT" name="setup" finished-at="2022-06-13T21:17:42 IDT" duration-ms="11561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1_openDestinationsTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:05 IDT" name="tc1_openDestinationsTest" finished-at="2022-06-13T16:30:08 IDT" duration-ms="3166" status="PASS">
+        <test-method signature="tc1_openDestinationsTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:42 IDT" name="tc1_openDestinationsTest" finished-at="2022-06-13T21:17:46 IDT" duration-ms="3256" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=4eec44a7-7902-4eb2-9080-20429cfa2445}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -> css selector: [href='/en/destinations']>.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=4eec44a7-7902-4eb2-9080-20429cfa2445}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -> css selector: [href='/en/destinations']>.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+at pageObjects.MainPage.openDestinations(MainPage.java:190)
+at tests.OpenLinksTest.tc1_openDestinationsTest(OpenLinksTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1_openDestinationsTest -->
-        <test-method signature="tc2_openmMyTripsTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:08 IDT" name="tc2_openmMyTripsTest" finished-at="2022-06-13T16:30:14 IDT" duration-ms="6158" status="PASS">
+        <test-method signature="tc2_openmMyTripsTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:46 IDT" name="tc2_openmMyTripsTest" finished-at="2022-06-13T21:17:52 IDT" duration-ms="6142" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=79f8331a-1a8d-4a7e-839b-652457788de7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77fd856e9667780d180815a43247c60a, isElementSelected {id=79f8331a-1a8d-4a7e-839b-652457788de7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53523/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77fd856e9667780d180815a43247c60a)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 77fd856e9667780d180815a43247c60a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+at tests.OpenLinksTest.tc2_openmMyTripsTest(OpenLinksTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2_openmMyTripsTest -->
-        <test-method signature="tc3_openCovidAssistTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:14 IDT" name="tc3_openCovidAssistTest" finished-at="2022-06-13T16:30:17 IDT" duration-ms="3170" status="PASS">
+        <test-method signature="tc3_openCovidAssistTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:52 IDT" name="tc3_openCovidAssistTest" finished-at="2022-06-13T21:17:55 IDT" duration-ms="3210" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at tests.OpenLinksTest.tc3_openCovidAssistTest(OpenLinksTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3_openCovidAssistTest -->
-        <test-method signature="tc4_openServiceHotelTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:17 IDT" name="tc4_openServiceHotelTest" finished-at="2022-06-13T16:30:21 IDT" duration-ms="3702" status="PASS">
+        <test-method signature="tc4_openServiceHotelTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:55 IDT" name="tc4_openServiceHotelTest" finished-at="2022-06-13T21:17:58 IDT" duration-ms="2868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4_openServiceHotelTest -->
-        <test-method signature="tc5_openServiceFlightsTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:21 IDT" name="tc5_openServiceFlightsTest" finished-at="2022-06-13T16:30:25 IDT" duration-ms="4193" status="PASS">
+        <test-method signature="tc5_openServiceFlightsTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:17:58 IDT" name="tc5_openServiceFlightsTest" finished-at="2022-06-13T21:18:01 IDT" duration-ms="2979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc5_openServiceFlightsTest -->
-        <test-method signature="tc6_openServiceExperiencesTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:25 IDT" name="tc6_openServiceExperiencesTest" finished-at="2022-06-13T16:30:31 IDT" duration-ms="5651" status="PASS">
+        <test-method signature="tc6_openServiceExperiencesTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:18:01 IDT" name="tc6_openServiceExperiencesTest" finished-at="2022-06-13T21:18:05 IDT" duration-ms="4525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc6_openServiceExperiencesTest -->
-        <test-method signature="tc7_openServiceInsuranceTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:31 IDT" name="tc7_openServiceInsuranceTest" finished-at="2022-06-13T16:30:33 IDT" duration-ms="2015" status="PASS">
+        <test-method signature="tc7_openServiceInsuranceTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:18:05 IDT" name="tc7_openServiceInsuranceTest" finished-at="2022-06-13T21:18:15 IDT" duration-ms="9565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc7_openServiceInsuranceTest -->
-        <test-method signature="tc8_openServiceCarRentalTest()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:33 IDT" name="tc8_openServiceCarRentalTest" finished-at="2022-06-13T16:30:36 IDT" duration-ms="3073" status="PASS">
+        <test-method signature="tc8_openServiceCarRentalTest()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:18:15 IDT" name="tc8_openServiceCarRentalTest" finished-at="2022-06-13T21:18:19 IDT" duration-ms="4082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc8_openServiceCarRentalTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenLinksTest@7e46d648]" started-at="2022-06-13T16:30:36 IDT" name="tearDown" finished-at="2022-06-13T16:30:41 IDT" duration-ms="5437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenLinksTest@3af356f]" started-at="2022-06-13T21:18:19 IDT" name="tearDown" finished-at="2022-06-13T21:18:25 IDT" duration-ms="5459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.OpenLinksTest -->
       <class name="tests.CreateNewFlexibleBusinessTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@303a5119]" started-at="2022-06-13T16:37:15 IDT" name="setup" finished-at="2022-06-13T16:37:24 IDT" duration-ms="9274" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@38548b19]" started-at="2022-06-13T21:21:44 IDT" name="setup" finished-at="2022-06-13T21:21:54 IDT" duration-ms="9949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleBusinessTrip()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@303a5119]" started-at="2022-06-13T16:37:24 IDT" name="createNewFlexibleBusinessTrip" finished-at="2022-06-13T16:38:08 IDT" duration-ms="44071" status="PASS">
+        <test-method signature="createNewFlexibleBusinessTrip()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@38548b19]" started-at="2022-06-13T21:21:54 IDT" name="createNewFlexibleBusinessTrip" finished-at="2022-06-13T21:22:38 IDT" duration-ms="44331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleBusinessTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@303a5119]" started-at="2022-06-13T16:38:08 IDT" name="tearDown" finished-at="2022-06-13T16:38:13 IDT" duration-ms="5271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleBusinessTrip@38548b19]" started-at="2022-06-13T21:22:38 IDT" name="tearDown" finished-at="2022-06-13T21:22:43 IDT" duration-ms="5237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleBusinessTrip -->
       <class name="tests.CreateNewFlexibleNatureTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@4e8e8621]" started-at="2022-06-13T16:25:27 IDT" name="setup" finished-at="2022-06-13T16:25:37 IDT" duration-ms="10419" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@783efb48]" started-at="2022-06-13T21:13:48 IDT" name="setup" finished-at="2022-06-13T21:13:57 IDT" duration-ms="9483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleNatureTrip()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@4e8e8621]" started-at="2022-06-13T16:25:37 IDT" name="createNewFlexibleNatureTrip" finished-at="2022-06-13T16:26:27 IDT" duration-ms="49684" status="PASS">
+        <test-method signature="createNewFlexibleNatureTrip()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@783efb48]" started-at="2022-06-13T21:13:57 IDT" name="createNewFlexibleNatureTrip" finished-at="2022-06-13T21:14:47 IDT" duration-ms="49982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleNatureTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@4e8e8621]" started-at="2022-06-13T16:26:27 IDT" name="tearDown" finished-at="2022-06-13T16:26:32 IDT" duration-ms="5282" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleNatureTrip@783efb48]" started-at="2022-06-13T21:14:47 IDT" name="tearDown" finished-at="2022-06-13T21:14:52 IDT" duration-ms="5246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleNatureTrip -->
-      <class name="tests.CreateNewFlexibleTripByAnniversaryCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@34523d46]" started-at="2022-06-13T16:21:18 IDT" name="setup" finished-at="2022-06-13T16:21:27 IDT" duration-ms="9248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByAnniversaryCategory()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@34523d46]" started-at="2022-06-13T16:21:27 IDT" name="createNewFlexibleTripByAnniversaryCategory" finished-at="2022-06-13T16:22:12 IDT" duration-ms="44627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByAnniversaryCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@34523d46]" started-at="2022-06-13T16:22:12 IDT" name="tearDown" finished-at="2022-06-13T16:22:17 IDT" duration-ms="5262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByAnniversaryCategory -->
       <class name="tests.CreateNewFlexibleTripByThemeParksCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@5d235104]" started-at="2022-06-13T16:24:40 IDT" name="setup" finished-at="2022-06-13T16:24:51 IDT" duration-ms="10667" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@3e83c18]" started-at="2022-06-13T21:13:04 IDT" name="setup" finished-at="2022-06-13T21:13:13 IDT" duration-ms="9489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByThemeParksCategory()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@5d235104]" started-at="2022-06-13T16:24:51 IDT" name="createNewFlexibleTripByThemeParksCategory" finished-at="2022-06-13T16:25:22 IDT" duration-ms="30968" status="PASS">
+        <test-method signature="createNewFlexibleTripByThemeParksCategory()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@3e83c18]" started-at="2022-06-13T21:13:13 IDT" name="createNewFlexibleTripByThemeParksCategory" finished-at="2022-06-13T21:13:42 IDT" duration-ms="28925" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7798a4d7803ca7a786a136d72b97ae04, clickElement {id=0a3c85a8-2d97-4b49-ae00-b28d7bdad3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53087/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7798a4d7803ca7a786a136d72b97ae04)] -> css selector: .app-header__logo]
+Session ID: 7798a4d7803ca7a786a136d72b97ae04]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7798a4d7803ca7a786a136d72b97ae04, clickElement {id=0a3c85a8-2d97-4b49-ae00-b28d7bdad3cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53087/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7798a4d7803ca7a786a136d72b97ae04)] -> css selector: .app-header__logo]
+Session ID: 7798a4d7803ca7a786a136d72b97ae04
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObjects.BasePage.click(BasePage.java:31)
+at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:482)
+at tests.CreateNewFlexibleTripByThemeParksCategory.createNewFlexibleTripByThemeParksCategory(CreateNewFlexibleTripByThemeParksCategory.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByThemeParksCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@5d235104]" started-at="2022-06-13T16:25:22 IDT" name="tearDown" finished-at="2022-06-13T16:25:27 IDT" duration-ms="5238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByThemeParksCategory@3e83c18]" started-at="2022-06-13T21:13:42 IDT" name="tearDown" finished-at="2022-06-13T21:13:48 IDT" duration-ms="5267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByThemeParksCategory -->
-      <class name="tests.CreateNewFlexibleTripByLeisureCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@d1a10ac]" started-at="2022-06-13T16:40:29 IDT" name="setup" finished-at="2022-06-13T16:40:39 IDT" duration-ms="9443" status="PASS">
+      <class name="tests.CreateNewFlexibleTripByAnniversaryCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@7b208b45]" started-at="2022-06-13T21:09:37 IDT" name="setup" finished-at="2022-06-13T21:09:51 IDT" duration-ms="13915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByLeisureCategory()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@d1a10ac]" started-at="2022-06-13T16:40:39 IDT" name="createNewFlexibleTripByLeisureCategory" finished-at="2022-06-13T16:41:17 IDT" duration-ms="38596" status="PASS">
+        <test-method signature="createNewFlexibleTripByAnniversaryCategory()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@7b208b45]" started-at="2022-06-13T21:09:51 IDT" name="createNewFlexibleTripByAnniversaryCategory" finished-at="2022-06-13T21:10:36 IDT" duration-ms="45026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByAnniversaryCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByAnniversaryCategory@7b208b45]" started-at="2022-06-13T21:10:36 IDT" name="tearDown" finished-at="2022-06-13T21:10:41 IDT" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByAnniversaryCategory -->
+      <class name="tests.CreateNewFlexibleTripByLeisureCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@75b3673]" started-at="2022-06-13T21:23:53 IDT" name="setup" finished-at="2022-06-13T21:24:03 IDT" duration-ms="10021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByLeisureCategory()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@75b3673]" started-at="2022-06-13T21:24:03 IDT" name="createNewFlexibleTripByLeisureCategory" finished-at="2022-06-13T21:24:42 IDT" duration-ms="38878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByLeisureCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@d1a10ac]" started-at="2022-06-13T16:41:17 IDT" name="tearDown" finished-at="2022-06-13T16:41:23 IDT" duration-ms="5276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByLeisureCategory@75b3673]" started-at="2022-06-13T21:24:42 IDT" name="tearDown" finished-at="2022-06-13T21:24:47 IDT" duration-ms="5278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByLeisureCategory -->
       <class name="tests.OpenExistingTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenExistingTrip@71391b3f]" started-at="2022-06-13T16:43:39 IDT" name="setup" finished-at="2022-06-13T16:43:50 IDT" duration-ms="10793" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenExistingTrip@6fca2a8f]" started-at="2022-06-13T21:27:05 IDT" name="setup" finished-at="2022-06-13T21:27:17 IDT" duration-ms="11142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openExistingTrip()[pri:0, instance:tests.OpenExistingTrip@71391b3f]" started-at="2022-06-13T16:43:50 IDT" name="openExistingTrip" finished-at="2022-06-13T16:44:02 IDT" duration-ms="11407" status="PASS">
+        <test-method signature="openExistingTrip()[pri:0, instance:tests.OpenExistingTrip@6fca2a8f]" started-at="2022-06-13T21:27:17 IDT" name="openExistingTrip" finished-at="2022-06-13T21:27:23 IDT" duration-ms="6123" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01dda831fe5052f0aee804062f224041, isElementSelected {id=ad2d8c34-fcd9-4135-a99d-96b5e9fca59d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54621/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (01dda831fe5052f0aee804062f224041)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 01dda831fe5052f0aee804062f224041]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01dda831fe5052f0aee804062f224041, isElementSelected {id=ad2d8c34-fcd9-4135-a99d-96b5e9fca59d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54621/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (01dda831fe5052f0aee804062f224041)] -> css selector: [href='/en/profile/bookmarks']>.vector-icon]
+Session ID: 01dda831fe5052f0aee804062f224041
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:179)
+at pageObjects.MainPage.openMyTrips(MainPage.java:181)
+at pageObjects.MainPage.openExistingTrip(MainPage.java:579)
+at tests.OpenExistingTrip.openExistingTrip(OpenExistingTrip.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openExistingTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenExistingTrip@71391b3f]" started-at="2022-06-13T16:44:02 IDT" name="tearDown" finished-at="2022-06-13T16:44:07 IDT" duration-ms="5326" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenExistingTrip@6fca2a8f]" started-at="2022-06-13T21:27:23 IDT" name="tearDown" finished-at="2022-06-13T21:27:28 IDT" duration-ms="5254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.OpenExistingTrip -->
-      <class name="tests.CreateNewFlexibleTripByRunningCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@783efb48]" started-at="2022-06-13T16:23:52 IDT" name="setup" finished-at="2022-06-13T16:24:03 IDT" duration-ms="10552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByRunningCategory()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@783efb48]" started-at="2022-06-13T16:24:03 IDT" name="createNewFlexibleTripByRunningCategory" finished-at="2022-06-13T16:24:35 IDT" duration-ms="31952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByRunningCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@783efb48]" started-at="2022-06-13T16:24:35 IDT" name="tearDown" finished-at="2022-06-13T16:24:40 IDT" duration-ms="5222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByRunningCategory -->
       <class name="tests.DeleteMyTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DeleteMyTrip@4c0884e8]" started-at="2022-06-13T16:16:47 IDT" name="setup" finished-at="2022-06-13T16:16:57 IDT" duration-ms="9453" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DeleteMyTrip@30404dba]" started-at="2022-06-13T21:04:31 IDT" name="setup" finished-at="2022-06-13T21:04:40 IDT" duration-ms="9617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deleteMyTrip()[pri:0, instance:tests.DeleteMyTrip@4c0884e8]" started-at="2022-06-13T16:16:57 IDT" name="deleteMyTrip" finished-at="2022-06-13T16:17:10 IDT" duration-ms="13685" status="PASS">
+        <test-method signature="deleteMyTrip()[pri:0, instance:tests.DeleteMyTrip@30404dba]" started-at="2022-06-13T21:04:40 IDT" name="deleteMyTrip" finished-at="2022-06-13T21:04:46 IDT" duration-ms="6141" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at tests.DeleteMyTrip.deleteMyTrip(DeleteMyTrip.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMyTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DeleteMyTrip@4c0884e8]" started-at="2022-06-13T16:17:10 IDT" name="tearDown" finished-at="2022-06-13T16:17:16 IDT" duration-ms="5261" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DeleteMyTrip@30404dba]" started-at="2022-06-13T21:04:46 IDT" name="tearDown" finished-at="2022-06-13T21:04:52 IDT" duration-ms="5259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DeleteMyTrip -->
-      <class name="tests.CreateNewFlexibleTripByRecreationCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@7cedfa63]" started-at="2022-06-13T16:22:17 IDT" name="setup" finished-at="2022-06-13T16:22:27 IDT" duration-ms="9464" status="PASS">
+      <class name="tests.CreateNewFlexibleTripByRunningCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@7cedfa63]" started-at="2022-06-13T21:12:18 IDT" name="setup" finished-at="2022-06-13T21:12:29 IDT" duration-ms="10985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByRecreationCategory()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@7cedfa63]" started-at="2022-06-13T16:22:27 IDT" name="createNewFlexibleTripByRecreationCategory" finished-at="2022-06-13T16:22:32 IDT" duration-ms="5119" status="FAIL">
+        <test-method signature="createNewFlexibleTripByRunningCategory()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@7cedfa63]" started-at="2022-06-13T21:12:29 IDT" name="createNewFlexibleTripByRunningCategory" finished-at="2022-06-13T21:12:59 IDT" duration-ms="30117" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [52816e610d29576a11e04514aec1f6d5, clickElement {id=225da978-f533-47b8-ae8b-2c00eabb78f5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53008/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (52816e610d29576a11e04514aec1f6d5)] -> css selector: .app-header__logo]
+Session ID: 52816e610d29576a11e04514aec1f6d5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [52816e610d29576a11e04514aec1f6d5, clickElement {id=225da978-f533-47b8-ae8b-2c00eabb78f5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53008/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (52816e610d29576a11e04514aec1f6d5)] -> css selector: .app-header__logo]
+Session ID: 52816e610d29576a11e04514aec1f6d5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObjects.BasePage.click(BasePage.java:31)
+at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
+at tests.CreateNewFlexibleTripByRunningCategory.createNewFlexibleTripByRunningCategory(CreateNewFlexibleTripByRunningCategory.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByRunningCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByRunningCategory@7cedfa63]" started-at="2022-06-13T21:12:59 IDT" name="tearDown" finished-at="2022-06-13T21:13:04 IDT" duration-ms="5289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByRunningCategory -->
+      <class name="tests.CreateNewFlexibleTripByRecreationCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@5bfc257]" started-at="2022-06-13T21:10:41 IDT" name="setup" finished-at="2022-06-13T21:10:51 IDT" duration-ms="9881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByRecreationCategory()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@5bfc257]" started-at="2022-06-13T21:10:51 IDT" name="createNewFlexibleTripByRecreationCategory" finished-at="2022-06-13T21:10:56 IDT" duration-ms="5132" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 1 out of bounds for length 0]]>
@@ -619,13 +1200,13 @@ at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions
 at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
 at java.base/java.util.Objects.checkIndex(Objects.java:359)
 at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at java.base/jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
 at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
 at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
-at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:463)
+at pageObjects.MainPage.createNewFlexibleThemeTripByCategory(MainPage.java:471)
 at tests.CreateNewFlexibleTripByRecreationCategory.createNewFlexibleTripByRecreationCategory(CreateNewFlexibleTripByRecreationCategory.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -665,67 +1246,137 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByRecreationCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@7cedfa63]" started-at="2022-06-13T16:22:32 IDT" name="tearDown" finished-at="2022-06-13T16:22:37 IDT" duration-ms="5234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByRecreationCategory@5bfc257]" started-at="2022-06-13T21:10:56 IDT" name="tearDown" finished-at="2022-06-13T21:11:01 IDT" duration-ms="5236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByRecreationCategory -->
-      <class name="tests.CreateNewFlexibleTripByIslandsAndBeachesCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@c446b14]" started-at="2022-06-13T16:26:32 IDT" name="setup" finished-at="2022-06-13T16:26:42 IDT" duration-ms="9556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByIslandsAndBeachesCategory()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@c446b14]" started-at="2022-06-13T16:26:42 IDT" name="createNewFlexibleTripByIslandsAndBeachesCategory" finished-at="2022-06-13T16:27:18 IDT" duration-ms="35760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleTripByIslandsAndBeachesCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@c446b14]" started-at="2022-06-13T16:27:18 IDT" name="tearDown" finished-at="2022-06-13T16:27:23 IDT" duration-ms="5262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleTripByIslandsAndBeachesCategory -->
       <class name="tests.LogOutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogOutTest@37095ded]" started-at="2022-06-13T16:13:41 IDT" name="setup" finished-at="2022-06-13T16:13:52 IDT" duration-ms="11206" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogOutTest@aa10649]" started-at="2022-06-13T21:00:28 IDT" name="setup" finished-at="2022-06-13T21:00:41 IDT" duration-ms="12615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logOutTest()[pri:0, instance:tests.LogOutTest@37095ded]" started-at="2022-06-13T16:13:52 IDT" name="logOutTest" finished-at="2022-06-13T16:14:01 IDT" duration-ms="9519" status="PASS">
+        <test-method signature="logOutTest()[pri:0, instance:tests.LogOutTest@aa10649]" started-at="2022-06-13T21:00:41 IDT" name="logOutTest" finished-at="2022-06-13T21:00:50 IDT" duration-ms="9618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogOutTest@37095ded]" started-at="2022-06-13T16:14:01 IDT" name="tearDown" finished-at="2022-06-13T16:14:07 IDT" duration-ms="5222" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogOutTest@aa10649]" started-at="2022-06-13T21:00:50 IDT" name="tearDown" finished-at="2022-06-13T21:00:56 IDT" duration-ms="5266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LogOutTest -->
-      <class name="tests.CreateNewFlexibleTripByFootballCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@23ee75c5]" started-at="2022-06-13T16:14:07 IDT" name="setup" finished-at="2022-06-13T16:14:17 IDT" duration-ms="10396" status="PASS">
+      <class name="tests.CreateNewFlexibleTripByIslandsAndBeachesCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@5d235104]" started-at="2022-06-13T21:14:52 IDT" name="setup" finished-at="2022-06-13T21:15:02 IDT" duration-ms="9611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByFootballCategory()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@23ee75c5]" started-at="2022-06-13T16:14:17 IDT" name="createNewFlexibleTripByFootballCategory" finished-at="2022-06-13T16:14:27 IDT" duration-ms="9643" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="createNewFlexibleTripByIslandsAndBeachesCategory()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@5d235104]" started-at="2022-06-13T21:15:02 IDT" name="createNewFlexibleTripByIslandsAndBeachesCategory" finished-at="2022-06-13T21:15:38 IDT" duration-ms="35763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleTripByIslandsAndBeachesCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByIslandsAndBeachesCategory@5d235104]" started-at="2022-06-13T21:15:38 IDT" name="tearDown" finished-at="2022-06-13T21:15:43 IDT" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleTripByIslandsAndBeachesCategory -->
+      <class name="tests.CreateNewFlexibleRomanticTrip">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@4e8e8621]" started-at="2022-06-13T21:15:43 IDT" name="setup" finished-at="2022-06-13T21:16:01 IDT" duration-ms="18068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleRomanticTrip()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@4e8e8621]" started-at="2022-06-13T21:16:01 IDT" name="createNewFlexibleRomanticTrip" finished-at="2022-06-13T21:16:06 IDT" duration-ms="5159" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from target frame detached
-  (Session info: chrome=102.0.5005.63)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139abf1d2fbbea13fb3279884aa36bb7, executeScript {script=var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '');},400);, args=[{ELEMENT=2424a15b-07b9-46b0-8714-b42c30be246b, element-6066-11e4-a52e-4f735466cecf=2424a15b-07b9-46b0-8714-b42c30be246b}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59030/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 139abf1d2fbbea13fb3279884aa36bb7]]>
+              <![CDATA[Index 1 out of bounds for length 0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from target frame detached
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+at pageObjects.MainPage.createNewFlexibleRomanticTrip(MainPage.java:364)
+at tests.CreateNewFlexibleRomanticTrip.createNewFlexibleRomanticTrip(CreateNewFlexibleRomanticTrip.java:10)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFlexibleRomanticTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@4e8e8621]" started-at="2022-06-13T21:16:06 IDT" name="tearDown" finished-at="2022-06-13T21:16:11 IDT" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateNewFlexibleRomanticTrip -->
+      <class name="tests.CreateNewFlexibleTripByFootballCategory">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@30b2b76f]" started-at="2022-06-13T21:00:56 IDT" name="setup" finished-at="2022-06-13T21:01:05 IDT" duration-ms="9675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewFlexibleTripByFootballCategory()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@30b2b76f]" started-at="2022-06-13T21:01:05 IDT" name="createNewFlexibleTripByFootballCategory" finished-at="2022-06-13T21:01:42 IDT" duration-ms="36521" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [139abf1d2fbbea13fb3279884aa36bb7, executeScript {script=var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '');},400);, args=[{ELEMENT=2424a15b-07b9-46b0-8714-b42c30be246b, element-6066-11e4-a52e-4f735466cecf=2424a15b-07b9-46b0-8714-b42c30be246b}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59030/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 139abf1d2fbbea13fb3279884aa36bb7
+Command: [9e3b1e8ec7c8ea7b3e91a234b055654c, clickElement {id=9bd101a1-48da-4a5d-abad-8108010b6239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e3b1e8ec7c8ea7b3e91a234b055654c)] -> css selector: .app-header__logo]
+Session ID: 9e3b1e8ec7c8ea7b3e91a234b055654c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e3b1e8ec7c8ea7b3e91a234b055654c, clickElement {id=9bd101a1-48da-4a5d-abad-8108010b6239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51702/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e3b1e8ec7c8ea7b3e91a234b055654c)] -> css selector: .app-header__logo]
+Session ID: 9e3b1e8ec7c8ea7b3e91a234b055654c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -738,11 +1389,16 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:501)
-at pageObjects.BasePage.highlightElement(BasePage.java:60)
-at pageObjects.BasePage.getText(BasePage.java:35)
-at pageObjects.InspirePage.clickBySportSubCategory(InspirePage.java:96)
-at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:395)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at pageObjects.BasePage.click(BasePage.java:31)
+at pageObjects.MainPage.createNewFlexibleSportTripByCategory(MainPage.java:409)
 at tests.CreateNewFlexibleTripByFootballCategory.createNewFlexibleTripByFootballCategory(CreateNewFlexibleTripByFootballCategory.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -778,101 +1434,61 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByFootballCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@23ee75c5]" started-at="2022-06-13T16:14:27 IDT" name="tearDown" finished-at="2022-06-13T16:14:32 IDT" duration-ms="5243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByFootballCategory@30b2b76f]" started-at="2022-06-13T21:01:42 IDT" name="tearDown" finished-at="2022-06-13T21:01:47 IDT" duration-ms="5253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripByFootballCategory -->
-      <class name="tests.CreateNewFlexibleRomanticTrip">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@3af356f]" started-at="2022-06-13T16:27:23 IDT" name="setup" finished-at="2022-06-13T16:27:37 IDT" duration-ms="13927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleRomanticTrip()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@3af356f]" started-at="2022-06-13T16:27:37 IDT" name="createNewFlexibleRomanticTrip" finished-at="2022-06-13T16:28:32 IDT" duration-ms="54879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewFlexibleRomanticTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleRomanticTrip@3af356f]" started-at="2022-06-13T16:28:32 IDT" name="tearDown" finished-at="2022-06-13T16:28:37 IDT" duration-ms="5269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewFlexibleRomanticTrip -->
       <class name="tests.ChangeCurrencyTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ChangeCurrencyTest@340b7ef6]" started-at="2022-06-13T16:14:57 IDT" name="setup" finished-at="2022-06-13T16:15:01 IDT" duration-ms="4829" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ChangeCurrencyTest@23ee75c5]" started-at="2022-06-13T21:02:42 IDT" name="setup" finished-at="2022-06-13T21:02:46 IDT" duration-ms="3892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="changeCurrencyToDollarTest()[pri:0, instance:tests.ChangeCurrencyTest@340b7ef6]" started-at="2022-06-13T16:15:01 IDT" name="changeCurrencyToDollarTest" finished-at="2022-06-13T16:15:08 IDT" duration-ms="6788" status="PASS">
+        <test-method signature="changeCurrencyToDollarTest()[pri:0, instance:tests.ChangeCurrencyTest@23ee75c5]" started-at="2022-06-13T21:02:46 IDT" name="changeCurrencyToDollarTest" finished-at="2022-06-13T21:02:53 IDT" duration-ms="6933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCurrencyToDollarTest -->
-        <test-method signature="changeCurrencyToEuroTest()[pri:0, instance:tests.ChangeCurrencyTest@340b7ef6]" started-at="2022-06-13T16:15:08 IDT" name="changeCurrencyToEuroTest" finished-at="2022-06-13T16:15:15 IDT" duration-ms="6676" status="PASS">
+        <test-method signature="changeCurrencyToEuroTest()[pri:0, instance:tests.ChangeCurrencyTest@23ee75c5]" started-at="2022-06-13T21:02:53 IDT" name="changeCurrencyToEuroTest" finished-at="2022-06-13T21:03:00 IDT" duration-ms="6716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCurrencyToEuroTest -->
-        <test-method signature="changeCurrencyToShekelTest()[pri:0, instance:tests.ChangeCurrencyTest@340b7ef6]" started-at="2022-06-13T16:15:15 IDT" name="changeCurrencyToShekelTest" finished-at="2022-06-13T16:15:24 IDT" duration-ms="8736" status="PASS">
+        <test-method signature="changeCurrencyToShekelTest()[pri:0, instance:tests.ChangeCurrencyTest@23ee75c5]" started-at="2022-06-13T21:03:00 IDT" name="changeCurrencyToShekelTest" finished-at="2022-06-13T21:03:09 IDT" duration-ms="8706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCurrencyToShekelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChangeCurrencyTest@340b7ef6]" started-at="2022-06-13T16:15:24 IDT" name="tearDown" finished-at="2022-06-13T16:15:29 IDT" duration-ms="5223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChangeCurrencyTest@23ee75c5]" started-at="2022-06-13T21:03:09 IDT" name="tearDown" finished-at="2022-06-13T21:03:14 IDT" duration-ms="5206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ChangeCurrencyTest -->
       <class name="tests.CreateNewFlexibleTripTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripTest@51751e5f]" started-at="2022-06-13T16:30:41 IDT" name="setup" finished-at="2022-06-13T16:30:52 IDT" duration-ms="10416" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripTest@4443ef6f]" started-at="2022-06-13T21:18:25 IDT" name="setup" finished-at="2022-06-13T21:18:34 IDT" duration-ms="9520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTrip()[pri:0, instance:tests.CreateNewFlexibleTripTest@51751e5f]" started-at="2022-06-13T16:30:52 IDT" name="createNewFlexibleTrip" finished-at="2022-06-13T16:32:48 IDT" duration-ms="116456" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="createNewFlexibleTrip()[pri:0, instance:tests.CreateNewFlexibleTripTest@4443ef6f]" started-at="2022-06-13T21:18:34 IDT" name="createNewFlexibleTrip" finished-at="2022-06-13T21:18:39 IDT" duration-ms="5146" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[class='btn-dark-blue btn']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [52ea2e5a2fb47df4789380a6327ecb78, findElement {using=css selector, value=[class='btn-dark-blue btn']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60811/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 52ea2e5a2fb47df4789380a6327ecb78]]>
+              <![CDATA[Index 0 out of bounds for length 0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[class='btn-dark-blue btn']"}
-  (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'RAZ_VARDI', ip: '192.168.1.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [52ea2e5a2fb47df4789380a6327ecb78, findElement {using=css selector, value=[class='btn-dark-blue btn']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\RAZVAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60811/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 52ea2e5a2fb47df4789380a6327ecb78
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy13.getAttribute(Unknown Source)
-at pageObjects.BasePage.highlightElement(BasePage.java:51)
-at pageObjects.BasePage.click(BasePage.java:29)
-at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:269)
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+at pageObjects.PlanPage.startPlan(PlanPage.java:20)
+at pageObjects.MainPage.createNewFlexibleTrip(MainPage.java:267)
 at tests.CreateNewFlexibleTripTest.createNewFlexibleTrip(CreateNewFlexibleTripTest.java:10)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -908,25 +1524,79 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTrip -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripTest@51751e5f]" started-at="2022-06-13T16:32:48 IDT" name="tearDown" finished-at="2022-06-13T16:32:53 IDT" duration-ms="5258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripTest@4443ef6f]" started-at="2022-06-13T21:18:39 IDT" name="tearDown" finished-at="2022-06-13T21:18:44 IDT" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CreateNewFlexibleTripTest -->
       <class name="tests.CreateNewFlexibleTripByVacationCategory">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@2b0b4d53]" started-at="2022-06-13T16:32:53 IDT" name="setup" finished-at="2022-06-13T16:33:04 IDT" duration-ms="10507" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@7e46d648]" started-at="2022-06-13T21:18:44 IDT" name="setup" finished-at="2022-06-13T21:18:56 IDT" duration-ms="11188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNewFlexibleTripByVacationCategory()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@2b0b4d53]" started-at="2022-06-13T16:33:04 IDT" name="createNewFlexibleTripByVacationCategory" finished-at="2022-06-13T16:34:12 IDT" duration-ms="68364" status="PASS">
+        <test-method signature="createNewFlexibleTripByVacationCategory()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@7e46d648]" started-at="2022-06-13T21:18:56 IDT" name="createNewFlexibleTripByVacationCategory" finished-at="2022-06-13T21:19:01 IDT" duration-ms="5136" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+at jdk.proxy2/jdk.proxy2.$Proxy14.get(Unknown Source)
+at pageObjects.PlanPage.inspireMe(PlanPage.java:26)
+at pageObjects.MainPage.createNewFlexibleRomanticTripByCategory(MainPage.java:418)
+at tests.CreateNewFlexibleTripByVacationCategory.createNewFlexibleTripByVacationCategory(CreateNewFlexibleTripByVacationCategory.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewFlexibleTripByVacationCategory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@2b0b4d53]" started-at="2022-06-13T16:34:12 IDT" name="tearDown" finished-at="2022-06-13T16:34:18 IDT" duration-ms="5275" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewFlexibleTripByVacationCategory@7e46d648]" started-at="2022-06-13T21:19:01 IDT" name="tearDown" finished-at="2022-06-13T21:19:06 IDT" duration-ms="5261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
