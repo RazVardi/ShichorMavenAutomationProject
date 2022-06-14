@@ -1,44 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="tests.LogOutTest"/>
-      <class name="tests.CreateNewFlexibleTripByFootballCategory"/>
-      <class name="tests.CreateNewFlexibleTripByCultureCategory"/>
-      <class name="tests.ChangeCurrencyTest"/>
-      <class name="tests.CreateNewFlexibleTripPresetDestTest"/>
-      <class name="tests.LoginTest"/>
-      <class name="tests.DeleteMyTrip"/>
-      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory"/>
-      <class name="tests.CreateNewFlexibleTripByMusicCategory"/>
-      <class name="tests.CreateNewFlexibleTripByBasketballCategory"/>
-      <class name="tests.CreateNewFlexibleTripByCyclingCategory"/>
-      <class name="tests.CreateNewFlexibleTripByHoneymoonCategory"/>
-      <class name="tests.CreateNewFlexibleTripByAnniversaryCategory"/>
-      <class name="tests.CreateNewFlexibleTripByRecreationCategory"/>
-      <class name="tests.CreateNewFlexibleFamilyTrip"/>
-      <class name="tests.CreateNewFlexibleTripByRunningCategory"/>
-      <class name="tests.CreateNewFlexibleTripByThemeParksCategory"/>
-      <class name="tests.CreateNewFlexibleNatureTrip"/>
-      <class name="tests.CreateNewFlexibleTripByIslandsAndBeachesCategory"/>
-  
-      <class name="tests.CreateNewFlexibleRomanticTrip"/>
-      <class name="tests.CreateNewFlexibleThemeTrip"/>
-      <class name="tests.OpenLinksTest"/>
-      <class name="tests.CreateNewFlexibleTripTest"/>
-      <class name="tests.CreateNewFlexibleTripByVacationCategory"/>
-      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory"/>
-      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory"/>
-      <class name="tests.CreateNewFlexibleTripByExtendedFamilyCategory"/>
-      <class name="tests.CreateNewFlexibleBusinessTrip"/>
-      <class name="tests.CreateTripByDestinationOnlyTest"/>
-      <class name="tests.CreateNewFlexibleSportTrip"/>
-      <class name="tests.CreateNewFlexibleTripByLeisureCategory"/>
-      <class name="tests.CreateNewFlexibleTripByBirthdayCategory"/>
-      <class name="tests.CreateNewFlexibleTripByTennisCategory"/>
-      <class name="tests.OpenExistingTrip"/>
-      <class name="tests.CreateNewFlexibleTripByAnnualCategory"/>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="utilities.ListenerClass"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="tests.LogOutTest" />
+			<class name="tests.CreateNewFlexibleTripByFootballCategory" />
+			<class name="tests.CreateNewFlexibleTripByCultureCategory" />
+			<class name="tests.ChangeCurrencyTest" />
+			<class name="tests.CreateNewFlexibleTripPresetDestTest" />
+			<class name="tests.LoginTest" />
+			<class name="tests.DeleteMyTrip" />
+			<class name="tests.CreateNewFlexibleTripByBarMitzvahCategory" />
+			<class name="tests.CreateNewFlexibleTripByMusicCategory" />
+			<class name="tests.CreateNewFlexibleTripByBasketballCategory" />
+			<class name="tests.CreateNewFlexibleTripByCyclingCategory" />
+			<class name="tests.CreateNewFlexibleTripByHoneymoonCategory" />
+			<class name="tests.CreateNewFlexibleTripByAnniversaryCategory" />
+			<class name="tests.CreateNewFlexibleTripByRecreationCategory" />
+			<class name="tests.CreateNewFlexibleFamilyTrip" />
+			<class name="tests.CreateNewFlexibleTripByRunningCategory" />
+			<class name="tests.CreateNewFlexibleTripByThemeParksCategory" />
+			<class name="tests.CreateNewFlexibleNatureTrip" />
+			<class name="tests.CreateNewFlexibleTripByIslandsAndBeachesCategory" />
+
+			<class name="tests.CreateNewFlexibleRomanticTrip" />
+			<class name="tests.CreateNewFlexibleThemeTrip" />
+			<class name="tests.OpenLinksTest" />
+			<class name="tests.CreateNewFlexibleTripTest" />
+			<class name="tests.CreateNewFlexibleTripByVacationCategory" />
+			<class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory" />
+			<class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory" />
+			<class name="tests.CreateNewFlexibleTripByExtendedFamilyCategory" />
+			<class name="tests.CreateNewFlexibleBusinessTrip" />
+			<class name="tests.CreateTripByDestinationOnlyTest" />
+			<class name="tests.CreateNewFlexibleSportTrip" />
+			<class name="tests.CreateNewFlexibleTripByLeisureCategory" />
+			<class name="tests.CreateNewFlexibleTripByBirthdayCategory" />
+			<class name="tests.CreateNewFlexibleTripByTennisCategory" />
+			<class name="tests.OpenExistingTrip" />
+			<class name="tests.CreateNewFlexibleTripByAnnualCategory" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
