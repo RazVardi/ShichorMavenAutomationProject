@@ -3,18 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.OpenLinksTest">
+      <class name="tests.DeleteMyTrip">
         <methods>
-          <include name="tc7_openServiceInsuranceTest"/>
           <include name="setup"/>
-          <include name="tc8_openServiceCarRentalTest"/>
-          <include name="tc3_openCovidAssistTest"/>
-          <include name="tc5_openServiceFlightsTest"/>
-          <include name="tc4_openServiceHotelTest"/>
+          <include name="deleteMyTrip"/>
           <include name="tearDown"/>
-          <include name="tc6_openServiceExperiencesTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.OpenLinksTest -->
+      </class> <!-- tests.DeleteMyTrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

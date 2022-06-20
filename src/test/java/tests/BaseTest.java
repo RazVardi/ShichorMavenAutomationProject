@@ -15,8 +15,8 @@ public class BaseTest {
 	
 	@BeforeClass
 	public void setup(ITestContext testContext) {
-		//System.setProperty("webdriver.chrome.driver", "C:\\automation\\drivers\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "C:\\automation\\drivers\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		mp=new MainPage(driver);

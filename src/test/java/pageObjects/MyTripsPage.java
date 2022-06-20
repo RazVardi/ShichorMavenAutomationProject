@@ -16,6 +16,7 @@ public class MyTripsPage extends BasePage {
 	private WebElement listTrash2;
 	@FindBy(css = ".btn.btn-link")
 	private List<WebElement> openCityList;
+	int i;
 	
 	public MyTripsPage(WebDriver driver) {
 		super(driver);
@@ -23,20 +24,23 @@ public class MyTripsPage extends BasePage {
 	}
 	
 	
-	public void deleteMyTrip(String city) {
-		for(int i=0;i<listTitle.size();i++) {
+	public int deleteMyTrip(String city) {
+		for(i=0;i<listTitle.size();i++) {
 			if(getText(listTitle.get(i)).equals(city)) {
 				click(listTrash.get(i));
 				click(listTrash2);
-				break;
+				System.out.println("paris deleted from mytrip");
+				return listTitle.size();
 			}
 		}
+		i=-1;
+		return i;
 	}
-	public Boolean checkDeleteMyTrip(String city) {
-		for(int i=0;i<listTitle.size();i++) {
-			if(!getText(listTitle.get(i)).equals(city)) {
-				return true;
-			}
+	
+	public Boolean checkDeleteMyTrip(int oldListSize) {
+		
+		if(oldListSize-1==listTitle.size()) {
+			return true;
 		}
 		return false;
 	}
@@ -54,4 +58,15 @@ public class MyTripsPage extends BasePage {
 		return false;
 	}
 
+
+	public Boolean saveListSize(int oldListSize) {
+		try {
+			Boolean state=checkDeleteMyTrip(oldListSize);
+			System.out.println("state is: " + state);
+			return state;
+		}catch(Exception error) {
+			return false;
+		}
+	}
 }
+

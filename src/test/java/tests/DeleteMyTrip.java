@@ -18,11 +18,11 @@ public class DeleteMyTrip extends BaseLoginTest{
 	@Severity(SeverityLevel.CRITICAL)
 	@Test(description="Delete trip by name")
 	public void deleteMyTrip() {
-		 //=new MainPage(driver);
 		mp.openMyTripsVoid();
 		MyTripsPage mtp=new MyTripsPage(driver);
 		String city="Paris";
-		mtp.deleteMyTrip(city);
-		Assert.assertTrue(mtp.checkDeleteMyTrip(city));
+		int oldListSize=mtp.deleteMyTrip(city);		
+		mtp.sleep(2000L);
+		Assert.assertTrue(mtp.saveListSize(oldListSize));
 	}
 }
