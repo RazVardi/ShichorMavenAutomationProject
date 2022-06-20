@@ -13,8 +13,6 @@ import io.qameta.allure.Step;
 
 public class TellUsPage extends BasePage{
 	
-	
-	
 	@FindBy(css=".rc-slider-handler-tooltip")//"[class='interest-slider__handle']")
 	List<WebElement> slider;
 	@FindBy(css=".btn-blue.btn")
@@ -24,10 +22,8 @@ public class TellUsPage extends BasePage{
 	@FindBy(css=".d-block.text-truncate")
 	List<WebElement> sportSunTitle;
 
-	
 	public TellUsPage(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 	
 	@Step("set profile graph value for business category")

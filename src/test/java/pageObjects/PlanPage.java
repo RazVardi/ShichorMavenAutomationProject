@@ -9,10 +9,12 @@ import org.openqa.selenium.support.FindBy;
 import io.qameta.allure.Step;
 
 public class PlanPage extends BasePage{
+	
 	@FindBy(css=".btn-blue.btn-fluid.btn")
 	List<WebElement> startPlan;
 	@FindBy(css="[class='destination-cta-banner__button-body']")
 	WebElement startPlanNew;
+	
 	public PlanPage(WebDriver driver) {
 		super(driver);
 	}

@@ -17,7 +17,7 @@ import pageObjects.MainPage;
 
 public class ChangeCurrencyTest extends BaseTest{
 	
-	MainPage mp;
+	
 	
 	@Epic("dollar currency")
 	@Feature("change currency to dollar")
@@ -26,7 +26,6 @@ public class ChangeCurrencyTest extends BaseTest{
 	@Description("valid the Change currency to dollar - exptected to success")
 	@Test(description="Change currency to dollar")
 	public void changeCurrencyToDollarTest() {
-		mp=new MainPage(driver);
 		Assert.assertEquals(mp.changeCurrencyToDollarTest(), "USD");
 	}
 	
@@ -37,7 +36,6 @@ public class ChangeCurrencyTest extends BaseTest{
 	@Description("valid the Change currency to euro - exptected to success")
 	@Test(description="Change currency To euro")
 	public void changeCurrencyToEuroTest() {
-		mp=new MainPage(driver);
 		Assert.assertEquals(mp.changeCurrencyToEuroTest(), "EUR");
 	}
 	
@@ -48,7 +46,6 @@ public class ChangeCurrencyTest extends BaseTest{
 	@Description("valid the Change currency to shekel - exptected to success")
 	@Test(description="Change currency To shekel")
 	public void changeCurrencyToShekelTest() {
-		mp=new MainPage(driver);
 		Assert.assertEquals(mp.changeCurrencyToShekelTest(), "ILS");
 	}
 }

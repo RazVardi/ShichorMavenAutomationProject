@@ -13,7 +13,7 @@ import pageObjects.MyTripsPage;
 
 public class DeleteMyTrip extends BaseLoginTest{
 	
-	//MainPage mp;
+
 	@Epic("delete cities trips")
 	@Feature("basic delete of trips")
 	@Story("as user, i want able to cancel trips")

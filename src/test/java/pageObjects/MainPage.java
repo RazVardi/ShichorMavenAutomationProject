@@ -624,11 +624,11 @@ public class MainPage extends BasePage {
 	public boolean createTripByDestinationOnly() {
 		sleep(3000L);
 		openDestinations();
-		TravelPage tp=new TravelPage(driver);
+		DestinationsPage dp=new DestinationsPage(driver);
 		sleep(3000L);
-		tp.clickOnSearchDestination();
+		dp.clickOnSearchDestination();
 		String city="Frankfurt";
-		tp.searchDestination(city);
+		dp.searchDestination(city);
 		sleep(3000L);
 		SearchPage sp=new SearchPage(driver);
 		sp.clickOnImageURL();
@@ -668,7 +668,7 @@ public class MainPage extends BasePage {
 	}
 	
 	public Boolean linkLocation(int i) {
-		for(;i<listLinks.size();) {
+		while(i<listLinks.size()) {
 			click(listLinks.get(i));
 			closeTab();
 			return true;
