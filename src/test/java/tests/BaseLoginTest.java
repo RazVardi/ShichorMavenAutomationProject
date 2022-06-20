@@ -1,11 +1,6 @@
 package tests;
 
-
-
 import org.testng.annotations.BeforeClass;
-
-//import io.github.bonigarcia.wdm.WebDriverManager;
-
 
 public class BaseLoginTest extends BaseTest {
 	

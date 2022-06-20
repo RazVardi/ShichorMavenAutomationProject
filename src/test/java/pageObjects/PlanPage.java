@@ -1,11 +1,9 @@
 package pageObjects;
 
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import io.qameta.allure.Step;
 
 public class PlanPage extends BasePage{

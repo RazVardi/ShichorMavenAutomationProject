@@ -2,7 +2,6 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -12,7 +11,7 @@ import io.qameta.allure.Story;
 import pageObjects.MainPage;
 
 public class LoginTest extends BaseTest {
-	MainPage mp;
+	
 	
 	@Epic("login")
 	@Feature("basic authencation")
@@ -21,7 +20,7 @@ public class LoginTest extends BaseTest {
 	@Description("Login with wrong email and password - expected to failed")
 	@Test(description="Login with wrong credentials")
 	public void loginFailedTest() {
-		mp = new MainPage(driver);
+		//mp = new MainPage(driver);
 		mp.clickOnLogin();
 		mp.sleep(2000l);
 		mp.login("raz.auto@yahoo.com", "123");
