@@ -1,108 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="Test(failed)" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="tests.CreateNewFlexibleTripByRunningCategory">
-        <methods>
-          <include name="setup"/>
-          <include name="createNewFlexibleTripByRunningCategory"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByRunningCategory -->
-      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory">
-        <methods>
-          <include name="setup"/>
-          <include name="createNewFlexibleTripByWineAndGastronomyCategory"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByWineAndGastronomyCategory -->
-      <class name="tests.CreateNewFlexibleRomanticTrip">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="createNewFlexibleRomanticTrip"/>
-        </methods>
-      </class> <!-- tests.CreateNewFlexibleRomanticTrip -->
-      <class name="tests.CreateNewFlexibleTripByMusicCategory">
-        <methods>
-          <include name="setup"/>
-          <include name="createNewFlexibleTripByMusicCategory"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByMusicCategory -->
-      <class name="tests.OpenLinksTest">
-        <methods>
-          <include name="tc1_openDestinationsTest"/>
-          <include name="setup"/>
-          <include name="tc3_openCovidAssistTest"/>
-          <include name="tc2_openmMyTripsTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.OpenLinksTest -->
-      <class name="tests.DeleteMyTrip">
-        <methods>
-          <include name="setup"/>
-          <include name="deleteMyTrip"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.DeleteMyTrip -->
-      <class name="tests.CreateTripByDestinationOnlyTest">
-        <methods>
-          <include name="setup"/>
-          <include name="createTripByDestinationOnly"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.CreateTripByDestinationOnlyTest -->
       <class name="tests.CreateNewFlexibleTripByFootballCategory">
         <methods>
           <include name="setup"/>
           <include name="createNewFlexibleTripByFootballCategory"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- tests.CreateNewFlexibleTripByFootballCategory -->
-      <class name="tests.CreateNewFlexibleTripPresetDestTest">
+      <class name="tests.CreateTripByDestinationOnlyTest">
         <methods>
           <include name="setup"/>
-          <include name="createNewFlexibleTripPresetDest"/>
+          <include name="createTripByDestinationOnly"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.CreateNewFlexibleTripPresetDestTest -->
-      <class name="tests.CreateNewFlexibleTripByVacationCategory">
-        <methods>
           <include name="setup"/>
-          <include name="createNewFlexibleTripByVacationCategory"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripByVacationCategory -->
+      </class> <!-- tests.CreateTripByDestinationOnlyTest -->
+      <class name="tests.ChangeCurrencyTest">
+        <methods>
+          <include name="changeCurrencyToDollarTest"/>
+          <include name="changeCurrencyToEuroTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="changeCurrencyToShekelTest"/>
+        </methods>
+      </class> <!-- tests.ChangeCurrencyTest -->
       <class name="tests.OpenExistingTrip">
         <methods>
           <include name="setup"/>
           <include name="openExistingTrip"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- tests.OpenExistingTrip -->
       <class name="tests.CreateNewFlexibleTripByThemeParksCategory">
         <methods>
-          <include name="createNewFlexibleTripByThemeParksCategory"/>
           <include name="setup"/>
+          <include name="createNewFlexibleTripByThemeParksCategory"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- tests.CreateNewFlexibleTripByThemeParksCategory -->
-      <class name="tests.CreateNewFlexibleTripTest">
+      <class name="tests.CreateNewFlexibleTripByTennisCategory">
         <methods>
-          <include name="createNewFlexibleTrip"/>
           <include name="setup"/>
+          <include name="createNewFlexibleTripByTennisCategory"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.CreateNewFlexibleTripTest -->
+      </class> <!-- tests.CreateNewFlexibleTripByTennisCategory -->
+      <class name="tests.CreateNewFlexibleTripByLeisureCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByLeisureCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByLeisureCategory -->
+      <class name="tests.CreateNewFlexibleTripByExtendedFamilyCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByExtendedFamilyCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByExtendedFamilyCategory -->
+      <class name="tests.CreateNewFlexibleFamilyTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleFamilyTrip"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleFamilyTrip -->
       <class name="tests.CreateNewFlexibleTripByRecreationCategory">
         <methods>
           <include name="setup"/>
           <include name="createNewFlexibleTripByRecreationCategory"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- tests.CreateNewFlexibleTripByRecreationCategory -->
+      <class name="tests.CreateNewFlexibleTripByAnniversaryCategory">
+        <methods>
+          <include name="createNewFlexibleTripByAnniversaryCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByAnniversaryCategory -->
+      <class name="tests.CreateNewFlexibleBusinessTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleBusinessTrip"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleBusinessTrip -->
+      <class name="tests.CreateNewFlexibleTripByRunningCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByRunningCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByRunningCategory -->
+      <class name="tests.CreateNewFlexibleTripPresetDestTest">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripPresetDest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripPresetDestTest -->
+      <class name="tests.OpenLinksTest">
+        <methods>
+          <include name="tc1_openDestinationsTest"/>
+          <include name="tc7_openServiceInsuranceTest"/>
+          <include name="setup"/>
+          <include name="tc3_openCovidAssistTest"/>
+          <include name="tc8_openServiceCarRentalTest"/>
+          <include name="tc4_openServiceHotelTest"/>
+          <include name="tc5_openServiceFlightsTest"/>
+          <include name="tc2_openmMyTripsTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="tc6_openServiceExperiencesTest"/>
+        </methods>
+      </class> <!-- tests.OpenLinksTest -->
+      <class name="tests.CreateNewFlexibleTripByWineAndGastronomyCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByWineAndGastronomyCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByWineAndGastronomyCategory -->
+      <class name="tests.CreateNewFlexibleTripTest">
+        <methods>
+          <include name="createNewFlexibleTrip"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripTest -->
+      <class name="tests.CreateNewFlexibleTripByMusicCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByMusicCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByMusicCategory -->
+      <class name="tests.CreateNewFlexibleTripByCultureCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByCultureCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByCultureCategory -->
+      <class name="tests.CreateNewFlexibleTripByCyclingCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createNewFlexibleTripByCyclingCategory"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByCyclingCategory -->
+      <class name="tests.CreateNewFlexibleRomanticTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createNewFlexibleRomanticTrip"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleRomanticTrip -->
+      <class name="tests.DeleteMyTrip">
+        <methods>
+          <include name="deleteMyTrip"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DeleteMyTrip -->
+      <class name="tests.CreateNewFlexibleTripByIslandsAndBeachesCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByIslandsAndBeachesCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByIslandsAndBeachesCategory -->
+      <class name="tests.CreateNewFlexibleTripByBirthdayCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByBirthdayCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByBirthdayCategory -->
+      <class name="tests.CreateNewFlexibleThemeTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleThemeTrip"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleThemeTrip -->
+      <class name="tests.LogOutTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logOutTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.LogOutTest -->
+      <class name="tests.CreateNewFlexibleSportTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleSportTrip"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleSportTrip -->
+      <class name="tests.CreateNewFlexibleNatureTrip">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleNatureTrip"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleNatureTrip -->
+      <class name="tests.CreateNewFlexibleTripByMountainsAndForestsCategory">
+        <methods>
+          <include name="createNewFlexibleTripByMountainsAndForestsCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByMountainsAndForestsCategory -->
+      <class name="tests.CreateNewFlexibleTripByVacationCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByVacationCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByVacationCategory -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="loginFailedTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginSucceedTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CreateNewFlexibleTripByHoneymoonCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByHoneymoonCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByHoneymoonCategory -->
+      <class name="tests.CreateNewFlexibleTripByAnnualCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByAnnualCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByAnnualCategory -->
+      <class name="tests.CreateNewFlexibleTripByBasketballCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByBasketballCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByBasketballCategory -->
+      <class name="tests.CreateNewFlexibleTripByBarMitzvahCategory">
+        <methods>
+          <include name="setup"/>
+          <include name="createNewFlexibleTripByBarMitzvahCategory"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateNewFlexibleTripByBarMitzvahCategory -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

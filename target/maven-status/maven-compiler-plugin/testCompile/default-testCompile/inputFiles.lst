@@ -1,48 +1,48 @@
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\ChangeCurrencyTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByVacationCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\DestinationsPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripPresetDestTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByAnnualCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByIslandsAndBeachesCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\TravelPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\DeleteMyTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleFamilyTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByCyclingCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByExtendedFamilyCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByBirthdayCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByThemeParksCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByWineAndGastronomyCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleNatureTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\BaseTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByLeisureCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\LoginTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleThemeTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByFootballCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\OpenLinksTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\TellUsPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleRomanticTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByMusicCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\InspirePage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByBasketballCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByMountainsAndForestsCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\BookDestinationsPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\MainPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByBarMitzvahCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\BasePage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleSportTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByHoneymoonCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByCultureCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\MyTripsPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\LogOutTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\BaseLoginTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByTennisCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\BookDatesPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\PlanPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\pageObjects\SearchPage.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByRecreationCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\OpenExistingTrip.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByAnniversaryCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateTripByDestinationOnlyTest.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleTripByRunningCategory.java
-C:\Users\Raz Vardi\eclipse-workspace-gal-college\FinalAutomationMavenProjectNew\src\test\java\tests\CreateNewFlexibleBusinessTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByRunningCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleRomanticTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByFootballCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\TellUsPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleSportTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleFamilyTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\OpenLinksTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\LoginTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripPresetDestTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByBasketballCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateTripByDestinationOnlyTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleThemeTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\DeleteMyTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByRecreationCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\BaseTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByThemeParksCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByCyclingCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\BaseLoginTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\ChangeCurrencyTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\MainPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\BookDestinationsPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByMusicCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByWineAndGastronomyCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByHoneymoonCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByAnnualCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByIslandsAndBeachesCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByVacationCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleBusinessTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\LogOutTest.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\TravelPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByBirthdayCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\BookDatesPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\SearchPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleNatureTrip.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByBarMitzvahCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByCultureCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByAnniversaryCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByMountainsAndForestsCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\InspirePage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\PlanPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByLeisureCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\MyTripsPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\DestinationsPage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByTennisCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\pageObjects\BasePage.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\CreateNewFlexibleTripByExtendedFamilyCategory.java
+C:\Users\razva\eclipse-workspace-gal-college\ShichorMavenAutomationProject\src\test\java\tests\OpenExistingTrip.java

@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
+
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -45,28 +45,19 @@ public class MainPage extends BasePage {
 	private WebElement shekel;
 	@FindBy(css = ".locale-settings__tab+.locale-settings__tab")
 	private WebElement currency;
-	@FindBy(css = "[href='/en/profile/bookmarks']>.vector-icon")
-	private List<WebElement> myTrip;
 	@FindBy(css = "span>.home-hero__button-img")
 	private WebElement startPlan;
-	@FindBy(css = "[href='/en/destinations']>.vector-icon")
-	private List<WebElement> destinations;
-	@FindBy(css = "[class='header-nav__item header-nav__item--bold']")
-	private List<WebElement> covidAssist;
+	@FindBy(css = ".app-header__desktop [href='/en/profile/bookmarks']>.vector-icon")
+	private WebElement myTrip;
+	@FindBy(css = ".app-header__desktop [href='/en/destinations']>.vector-icon")
+	private WebElement destinations;
+	@FindBy(css = ".app-header__desktop [href='https://tripready.co.il/']>.vector-icon")
+	private WebElement covidAssist;
+	
 	@FindBy(css = "[class='header-dropdown__title']")
 	private List<WebElement> serviceMenu;
-	@FindBy(linkText="https://www.booking.com/?aid=344905&changed_currency=1&selected_currency=ILS")
-	private WebElement hotelLink;
 	@FindBy(css = "[class='header-dropdown-menu']")
 	private List<WebElement> hotelLinkXpath;
-	@FindBy(css = "[class='header-dropdown-item'] [alt='Flights']")
-	private List<WebElement> flightsLink;
-	@FindBy(css = "[class='header-dropdown-menu']")
-	private List<WebElement> experiencesLink;
-	@FindBy(css = "[class='header-dropdown-menu']")
-	private List<WebElement> insuranceLink;
-	@FindBy(css = "[class='header-dropdown-menu']")
-	private List<WebElement> carRentalLink;
 	ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
 	@FindBy(css="[href='https://www.booking.com/?aid=344905&changed_currency=1&selected_currency=ILS']:last-child")
 	private WebElement hotelFooter;
@@ -88,6 +79,22 @@ public class MainPage extends BasePage {
 	List<WebElement> myTripTitle;
 	@FindBy(css="[class='header-dropdown-item']")
 	List<WebElement> serviceList;
+	@FindBy(css="[class='app-header__desktop'] [class='header-dropdown__title'] span")
+	WebElement serviceMenuHover;
+	@FindBy(css="[class='app-header__desktop'] [href='https://www.booking.com/?aid=344905&changed_currency=1&selected_currency=ILS'] span")
+	WebElement hotelLink;
+	@FindBy(css="[class='app-header__desktop'] [href='https://shichor.kiwi.com/en/landing/?currency=ILS'] img")
+	WebElement flightsLink;
+	@FindBy(css="[class='app-header__desktop'] [href='https://www.viator.com/?medium=api&pid=P00048614&mcid=42383'] img")
+	WebElement experiencesLink;
+	@FindBy(css="[class='app-header__desktop'] [href='https://www.555.co.il/pearl/apps/travel?companyName=SHR'] img")
+	WebElement insuranceLink;
+	@FindBy(css="[class='app-header__desktop'] [href='https://www.rent4less.co.il/WhiteLabelsRes/7522-en/WhiteLabel.aspx'] img")
+	WebElement carRentalLink;
+	@FindBy(css="[class='app-header__desktop'] [class='header-dropdown-menu'] a")
+	List<WebElement> listLinks;
+	private int i;
+	
 	
 	public MainPage(WebDriver driver) {
 		super(driver);
@@ -185,14 +192,14 @@ public class MainPage extends BasePage {
 		return strCurrentCurrency;
 	}
 	
+	
+	
 	@Step("open the my trips page on the site")
 	public Boolean openMyTrips() {
 		try {
-			WebElement myTripEl=myTrip.get(0);
 			sleep(3000L);
-			click(myTripEl);
+			click(myTrip);
 			sleep(3000L);
-			click(shichorLogo);
 			return true;
 		}catch(Exception error) {
 			return false;
@@ -202,18 +209,14 @@ public class MainPage extends BasePage {
 	
 	@Step("open the my trips page on the site")
 	public void openMyTripsVoid() {
-		WebElement myTripEl=myTrip.get(0);
-		sleep(3000L);
-		click(myTripEl);
+		click(myTrip);
 		sleep(2000l);
-		
 	}
 	
 	@Step("open the destination page on the site")
 	public Boolean openDestinations() {
 		try {
-			WebElement desEl=destinations.get(0);
-			click(desEl);
+			click(destinations);
 			return true;
 		}catch(Exception error) {
 			return false;
@@ -224,99 +227,86 @@ public class MainPage extends BasePage {
 	@Step("open the covid assist page on the site")
 	public Boolean openCovidAssist() {
 		try {
-			WebElement covidEl=covidAssist.get(0);
-			click(covidEl);
+			click(covidAssist);
+			sleep(3000L);
+			closeTab();
 			return true;
 		}catch(Exception error) {
 			return false;
 		}
 		
 	}
+	
+	@Step("open the hotels links page on external site")
 	public Boolean  clickOnHotelNew() {
-		for(int i=0;i<serviceList.size()/2;i++) {
-			if(i==5) {
-				click(serviceList.get(i));
-				return true;
-			}
+		try {
+			hoverOnServiceMenu();
+			sleep(3000L);
+			linkLocation(i++);
+			return true;
+		}catch(Exception error) {
+			return false;
 		}
-		return false;
+		
 	}
 	
+	@Step("open the flights links page on external site")
 	public Boolean clickOnFlightsNew() {
-		for(int i=0;i<serviceList.size()/2;i++) {
-			if(i==6) {
-				click(serviceList.get(i));
-				return true;
-			}
+		try {
+			hoverOnServiceMenu();
+			sleep(3000L);
+			linkLocation(i++);
+			return true;
+		}catch(Exception error) {
+			return false;
 		}
-		return false;
 	}
 	
+	@Step("open the experiences links page on external site")
 	public Boolean clickOnExperiencesNew() {
-		for(int i=0;i<serviceList.size()/2;i++) {
-			if(i==7) {
-				click(serviceList.get(i));
-				return true;
-			}
+		try {
+			hoverOnServiceMenu();
+			sleep(3000L);			
+			linkLocation(i++);
+			return true;
+		}catch(Exception error) {
+			return false;
 		}
-		return false;
 	}
 	
+	@Step("open the insurance links page on external site")
 	public Boolean clickOnInsuranceNew() {
-		for(int i=0;i<serviceList.size()/2;i++) {
-			if(i==8) {
-				click(serviceList.get(i));
-				return true;
-			}
+		hoverOnServiceMenu();
+		try {
+			hoverOnServiceMenu();
+			sleep(3000L);
+			linkLocation(i++);
+			return true;
+		}catch(Exception error) {
+			return false;
 		}
-		return false;
 	}
 	
+	@Step("open the car rental links page on external site")
 	public Boolean clickOnCarRentalNew() {
-		for(int i=0;i<serviceList.size()/2;i++) {
-			if(i==9) {
-				click(serviceList.get(i));
-				return true;
-			}
+		hoverOnServiceMenu();
+		try {
+			hoverOnServiceMenu();
+			sleep(3000L);		
+			linkLocation(i);
+			return true;
+		}catch(Exception error) {
+			return false;
 		}
-		return false;
 	}
 	
-	public void clickOnServiceMenu() {
-		WebElement serviceMenuEl=serviceMenu.get(0);
-		driver.switchTo().newWindow(WindowType.TAB);
-		click(serviceMenuEl);
+	@Step("hover  on the service menu  to show the links on internal site")
+	public void hoverOnServiceMenu() {
+		click(serviceMenuHover);
+		System.out.println("test hoverOnServiceMenu is: "+ serviceMenuHover);
 	}
 	
-	public void clickOnHotel() {
-		String url="https://www.booking.com/?aid=344905&changed_currency=1&selected_currency=ILS";
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get(url);
-	}
 	
-	public void clickOnFlights() {
-		String url="https://shichor.kiwi.com/en/?currency=ILS";
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get(url);
-	}
-	
-	public void clickOnExperiences() {
-		String url="https://www.viator.com/?medium=api&pid=P00048614&mcid=42383";
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get(url);
-	}
-	
-	public void clickOnInsurance() {
-		String url="https://www.555.co.il/pearl/apps/travel/whereStep?companyName=SHR";
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get(url);
-	}
-	
-	public void clickOnCarRental() {
-		String url="https://www.rent4less.co.il/WhiteLabelsRes/7522-en/WhiteLabel.aspx";
-		driver.switchTo().newWindow(WindowType.TAB);
-		driver.get(url);
-	}
 	
 	public void createNewFlexibleTrip2() {
 		sleep(3000l);
@@ -669,9 +659,25 @@ public class MainPage extends BasePage {
 		}
 	}
 	
+	public void closeTab() {
+		sleep(2000L);
+		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+		driver.switchTo().window(tabs2.get(1));
+		driver.close();
+		driver.switchTo().window(tabs2.get(0));
+	}
+	
+	public Boolean linkLocation(int i) {
+		for(;i<listLinks.size();) {
+			click(listLinks.get(i));
+			closeTab();
+			return true;
+		}
+		return false;
+	}
+	
 	public void deleteCookies() {
 		driver.manage().deleteAllCookies();
 	}
 	
-
 }

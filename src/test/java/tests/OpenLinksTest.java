@@ -10,7 +10,7 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import pageObjects.MainPage;
+
 
 public class OpenLinksTest extends BaseLoginTest {
 	
@@ -22,7 +22,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open destinations on internal link")
 	@Test(description="Open Destinations")
 	public void tc1_openDestinationsTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.openDestinations());
 	}
 	
@@ -33,7 +33,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open mytrip on internal link")
 	@Test(description="Open mytrip")
 	public void tc2_openmMyTripsTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.openMyTrips());
 	}
 	
@@ -44,7 +44,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open covid assist on internal link")
 	@Test(description="Open covid assist")	
 	public void tc3_openCovidAssistTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.openCovidAssist());
 	}
 	
@@ -55,7 +55,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open covid assist on external link")
 	@Test(description="Open hotels")	
 	public void tc4_openServiceHotelTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.clickOnHotelNew());
 	}
 	
@@ -66,7 +66,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open flights on external link")
 	@Test(description="Open flights")
 	public void tc5_openServiceFlightsTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.clickOnFlightsNew());
 	}
 	
@@ -77,7 +77,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open experiences on external link")
 	@Test(description="Open experiences")
 	public void tc6_openServiceExperiencesTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.clickOnExperiencesNew());
 	}
 	
@@ -88,7 +88,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open insurance on external link")
 	@Test(description="Open insurance")
 	public void tc7_openServiceInsuranceTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.clickOnInsuranceNew());
 	}
 	
@@ -99,7 +99,7 @@ public class OpenLinksTest extends BaseLoginTest {
 	@Description("Open car rental on external link")
 	@Test(description="Open car rental")
 	public void tc8_openServiceCarRentalTest() {
-		mp=new MainPage(driver);
+		//mp=new MainPage(driver);
 		Assert.assertTrue(mp.clickOnCarRentalNew());
 	}
 }
